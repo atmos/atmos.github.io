@@ -1,0 +1,153 @@
+/* CSS Document */
+
+* {margin: 0;
+    padding: 0;}
+
+p {padding-top: 7px;
+    padding-bottom:7px;}
+	
+h1 {
+	padding-top: 200px;
+	padding-right: 90px;
+	text-align: right;
+	font-size: 1.6em;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+h2 {
+	padding-right: 90px;
+	text-align: right;
+	font-size: 1em;
+	font-style: italic;
+	color: #EAEEF7;
+}
+	
+	
+h3 {
+	padding-top: 7px;
+	padding-bottom:7px;
+	font-style: italic;
+	color: #787C87;
+	font-size: 1.4em;
+}
+
+h4 {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 10px;	
+}
+
+a:link {color: #666666}     /* unvisited link */
+a:visited {color: #666666}  /* visited link */
+a:hover {color: #794353}   /* mouse over link */
+a:active {color: #666666}   /* selected link */
+	
+body {
+	background-color: #6B6D82;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 62.5%;
+}
+	
+#container {
+	margin: 0px auto;
+	width: 797px;
+	color: #797D88;
+	font-size: 1.2em;
+}
+
+#header {
+	background-image: url(images/header.jpg);
+	height: 249px;
+}
+
+#linkbar {
+	background-image: url(images/linkbar_bg.jpg);
+	height: 79px;
+}
+
+#content {
+	background-image: url(images/content_tile.jpg);
+	background-repeat: repeat-y;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+#right_menu {
+	background-image: url(images/right_menu.jpg);
+	height: 365px;
+	width: 277px;
+	float: right;
+	margin-right: -80px!important;
+	margin-right: -40px;
+}
+
+#footer {
+	background-image: url(images/footer.jpg);
+	height: 63px;
+	padding-top: 80px;
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: center;
+	font-size: .9em;
+}
+
+/******************************* menu ****************************************/
+
+#navcontainer ul
+{
+	margin-left: 100px!important;
+	margin-left: 50px;
+	color: White;
+	float: left;
+	margin-top: 14px;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+padding: 0.2em 1em;
+color: White;
+text-decoration: none;
+float: left;
+}
+
+#navcontainer ul li a:hover
+{
+color: #E3E9F1;
+}
+
+/********************************' right menu *******************************/
+
+.navcontainer {
+	width: 200px;
+	margin-left: 40px;
+}
+
+.navcontainer ul
+{
+margin-left: 0;
+padding-left: 0;
+list-style-type: none;
+}
+
+.navcontainer a
+{
+display: block;
+padding: 3px;
+width: 168px;
+border-bottom: 1px solid #BFC2C9;
+}
+
+.navcontainer a:link, .navlist a:visited
+{
+color: #666666;
+text-decoration: none;
+}
+
+.navcontainer a:hover
+{
+background-color: #8D5764;
+color: #fff;
+}
