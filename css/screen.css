@@ -18,6 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
+  font-family: "terfens-1","terfens-2",sans-serif;
 }
 
 h1 {
@@ -34,6 +35,7 @@ a {
 
 a:hover {
   color: #333;
+  text-decoration: none;
 }
 
 a:visited {
@@ -63,6 +65,10 @@ table {
   margin-bottom: 2em;
 }
 
+.title a {
+  font-size: 1.3em;
+  padding: 1px 4px;
+}
 /*****************************************************************************/
 /*
 /* Posts
@@ -70,6 +76,21 @@ table {
 /*****************************************************************************/
 #post {
   width: 850px;
+  margin: 0 auto;
+}
+
+#post p {
+  font-size: 110%;
+  width: 575px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+#post .gist {
+  width: 600px;
+  padding: 4px;
+  text-align: left;
   margin: 0 auto;
 }
 
@@ -82,7 +103,10 @@ table {
 
 #post ul,
 #post ol {
-  margin-left: 1.25em;
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 2px;
 }
 
 #post code {
