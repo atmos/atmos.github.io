@@ -1,0 +1,7 @@
+--- 
+layout: post
+title: History
+---
+<p>I got to work on <a href="/code/entice/">Entice</a> some this
+weekend.  </p>
+<a href="/galleria/sshots/33/"><img src="/images/entice_exif_inline.png" alt="Entice with Exif Panel"/></a>

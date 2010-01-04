@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: Merry Christmas 2000
+---
+Christmas 2000 is upon us, and I'd like to wish everyone a Merry Christmas and a Happy New Year.  I'd also like wish a happy birthday to my friend Ben who's birthday is today, he's 21, hopefully we can convince him to come drink beer with us sometime.  I'd also like to wish my mom a happy birthday, her's was on the 23rd.  With greetings outta the way, I've got my clock thing working to the point where I'm somewhat happy with it, it'll be available later this afternoon when do a bit of tiding up with the makefile and stuff.  It's prolly not the most efficient thing ever written, but it does what I wanted it to do and hopefully one or two other people will find it useful as well.  My brother's friend tipped me off onto mullet websites today, and we laughed for a while over <a href="http://www.mulletsgalore.com">Mulletsgalore</a>.  It's 4:30 am by my clock right now, and I know my brothers will have us up early so I'm aiming for some sleep right now, gnight

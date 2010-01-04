@@ -1,0 +1,7 @@
+--- 
+layout: post
+title: Moving at the Speed of Life
+---
+The last few weeks at "Engine Yard":http://engineyard.com have been fucking insane, seriously.  I can't remember the last time I was this stressed and tired regularly.  Come to think of it, the last time I was this tired and stressed was the last time I was a systems admin.  I'm learning a bunch of new things, I'm holding lots of developers hands while they get their apps out to the world, and I'm constantly amazed by my coworkers knowledge.  I miss hacking terribly right now.  When I do finally pull myself away from work, I'm usually trying to get as far away from the computer as possible.  Despite the stress, exhaustion, and lack of programming time, life is beautiful right now.  I'm extremely happy with my life right now, that's not something I could say a year or two ago. :D
+
+I've finally gotten out of Nashville for a considerably less wonderful city, Memphis.  I'm going to miss so many things in that city, but getting out of the southeast is now a priority for me.  I'm crashing with family(who fucking rock btw) for the next couple of months until I get everything settled for a move out west.  I'm looking at Portland, the Engine Yard folks want me to look at San Francisco or Sacramento.  I'm not sure where I'll end up but I've got a month or two to figure it out.  I'm really looking forward to "Railsconf":http://railsconf.org now, it'll give me a peek at Portland and it'll give me the opportunity to talk with some of my favorite hackers.

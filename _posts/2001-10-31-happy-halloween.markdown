@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: happy halloween
+---
+"No. Sleep. Till Brooklyn."  sums up last night.  Architecture design is due in my software development class this afternoon, and I have an english paper due today as well.  It's 7:30am and I don't think I'm gonna get to sleep before class today.  I think I picked up 1984 sometime in august and finally got around to finishing it the other day, I found quite a few parts really interesting, and I understand why so many people have suggested it to me in the past year or so.  I've been toying with <a href="http://www.freebsd.org">FreeBSD</a> again, I dunno what it is, but something draws me to it every once in a while.  <a href="/zelda/">My cat</a> is a hellian, she knocked over a tower of cds yesterday, bit me, and enjoys playing between the window and the blinds lately.  I can't wait for her to mellow out some. I just looked around my room, and it kinda looks like a laundry basket and my backpack exploded simultaneously.  I can't wait for this week to be over...

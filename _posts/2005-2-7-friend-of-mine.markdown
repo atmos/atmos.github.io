@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: Friend of Mine
+---
+<p>A friend of mine snapped during the super bowl when I jokingly popped him on the head, he then hit me over the head with a beer mug and choked me.  Luckily his roommate ripped him off of me, and about that time he realized what he had done.The dude feels like a dick(which he rightfully should) and has no clue WHY he did it.  My head was gushing blood, got to visit the emergency room, got internal and external stitches, got about a 3 inch scar, and I have no hair on part of my head.  I'm fine but I look like I got mugged.  Just need to go get the stitches out in a few days.  What really sucks is that I get to meet all these bigwigs from the company I work for tomorrow, with a gigantic wound on my head.  &quot;Hi, I'm Corey, the guy they say good things about.  Oh this? It's nothing, a drunk friend hit me over the head with a beer mug the other day...&quot;  I'm trying to quit smoking again too, hopefully it'll work out better than the last attempt.</p>

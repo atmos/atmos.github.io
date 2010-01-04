@@ -1,0 +1,7 @@
+--- 
+layout: post
+title: Babies
+---
+<p><B>Oh My God</B>.  One of my friends, Regan, who I've known for about 12 years just had a kid.  Thomas Xavier Kireilis-Holmes was born sometime this morning.  It's kinda crazy for me to know that one of my childhood friends had a kid.  I just talked to her on the phone, and she sounds really good and happy that the kid popped out ok.  Weirdness.</p>
+<p>My room is nearly complete at Allison's and it really is starting to feel like home.  I can't believe I live with my girlfirned in fucking Mississippi now, I guess that's better than in Tennessee with my sister... God that's fucked up to say, but it makes me laugh so oh well.</p>
+<p> School starts monday and I have a wonderful schedule of 8am classes four days a week.  I have to go to court tomorrow(my first visit ever), to clear a speeding ticket off of my record.  I somehow need to get my linux servers to cooperate with my sun boxes at work before monday or we are going to revert to the old school, broken ass, insecure, and pain in the ass method known as <a href="http://www.linux-nis.org">NIS</a>.  I <B>hate</B> NIS.  It's been a thorn in my side since I started there, btw I hate system administration.&lt;/rant&gt;</p>

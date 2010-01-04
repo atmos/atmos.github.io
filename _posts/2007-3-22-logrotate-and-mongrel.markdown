@@ -1,0 +1,23 @@
+--- 
+layout: post
+title: Logrotate and Mongrel
+---
+If you've been around webservers for a number of years you've inevitably run into "logrotate":http://www.linuxcommand.org/man_pages/logrotate8.html at some point.  You set a tiny config file up and daily, weekly or monthly your logs get rotated out, compressed and optionally moved elsewhere for archiving.  It's pretty cool when your logs get chomped out into easily identifiable chunks.   You can think "I need the logs from 2 days ago" and you won't have to go sifting through *all* of last week's logs in order to get to them.  Mongrel really isn't any different than any other webserver most people have dealt with, but logrotate and mongrel seems to be lacking proper documentation around the web.  
+
+Everywhere I looked online I found stuff like "this":http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/218107 explaining how when more than one process are sharing logs files, ruby's built in log rotation falls flat on its face.  The answer to correct log rotation kept coming back to "use logrotate" but I couldn't find an example config to save my life.  So I mucked around with it for a bit.  The straightforward approach, moving the log outta the way and compressing it with logrotate, doesn't quite work because once the log file is moved out of the way the mongrels can't write to the new empty one.  This is easily solved with a postrotate task and a SIGUSR2 signal sent to mongrel.  So here it is, in all its glory, a logrotate task that you can prolly copy right over to your system and not waste time scouring the web for something that's really freakin simple.  It compresses files once a day, moves them to a subdirectory of the log dir called 'old' and it keeps 28 days of back logs.
+
+<pre>
+/home/atmos/Sites/atmos.org/shared/log/*.log {
+        daily
+        missingok
+        compress
+        sharedscripts
+        olddir old
+        rotate 28
+        postrotate
+          for i in `ls /home/atmos/Sites/atmos.org/shared/log/*.pid`; do
+            kill -USR2 `cat $i`
+          done
+        endscript
+}
+</pre>

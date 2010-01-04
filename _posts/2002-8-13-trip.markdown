@@ -1,0 +1,6 @@
+--- 
+layout: post
+title: Trip
+---
+<p>So I went to DC and had a really cool time.  I got to eat a bunch of good ethnic food.  I'm now fiending for chai shakes and green tea ice cream.  I got to hang out with a girl I hadn't seen in a long long time, and I had a shitload of fun with her.  I wish I coulda spent more time with her.  I saw my old high school, and I was a little surprised to see all the shit we fundraised for has actually been built.  It was a weird flashback of memories, it kinda made me feel old.</p>
+<p>I went back to work today, I'm getting sick of system administration.  I really like to <B>code</B>.  My job now gives me the opportunity to learn new UNIX things on hardware that I could never afford, but I don't get to code as much as I'd like to.  The shitty thing is I come home from work, and I don't wanna look at my computer any longer than it takes me to read my email. School starts in 2 weeks...  Maybe that'll make it less crappy.</p>

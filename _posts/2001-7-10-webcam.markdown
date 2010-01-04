@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: webcam?
+---
+<a href="/webcam.html">???</a> New version of <a href="http://www.linuxbrit.co.uk/camE">camE</a> works with kernel drivers =)

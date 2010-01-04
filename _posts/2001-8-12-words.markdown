@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Words
+---
+I just stopped by <a href="http://www.kainx.org">KainX</a>'s website.  If you don't 
+know who KainX is he wrote <a href="http://www.eterm.org">Eterm</a>, an application 
+I use probably more than 40 times a day.  He has a lot of writings and thoughts and 
+things on his page which were pretty neat to sift through.  I wish my <a 
+HREF="http://www.openbsd.org">openbsd</a> box had two working nics again.  

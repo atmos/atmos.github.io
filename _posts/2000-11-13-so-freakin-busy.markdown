@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: So Freakin Busy
+---
+Redid my webcam with <a href="http://www.linuxbrit.org/camE/">camE</a> now, looks a little nicer, gonna get image overlay on it eventually.  The next 3 days are gonna suck. I have tons of shit to do.  I woke up to the joy of explaining a ms word 97 install to one of my dad's co-workers on 3 way while my dad shouted bits of genius like, "click on the cd on your desktop!" So now I've got 4 hours of sleep under my belt, I need to go conquer school, and do this access database shit.  There is a good portion of work left to due on it, and it's being presented tommorow morning, HAH.  I might start adding more links to make these updates a little more useful to those than myself, but haven't had the browsing time lately.  If you haven't already seen <a href="http://www.garson.org/~gnea/radiskull/">The Radiskull</a> he's pretty dope, you need flash for it, but it works with my flash player in linux with Netscape 4.75.  I think Gnea redid them so they'd be linux compatible, as the main site doe

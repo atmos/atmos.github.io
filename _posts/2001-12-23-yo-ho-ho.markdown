@@ -1,0 +1,18 @@
+--- 
+layout: post
+title: Yo Ho Ho
+---
+Christmas break is a gift, I needed this downtime.  I think I have finally 
+gotten my email moved over to an IMAP server hooray for consistent email 
+anywhere. =)  It actually turned out to be a nice combination of <a href=
+"http://www.qmail.org">Qmail</a>, <a href="http://www.inter7.com/
+vpopmail/">vpopmail</a>, <a href="http://www.inter7.com/courierimap/
+">Courier-IMAP</a> handling everything imap/pop3/authentication/
+roaming smtp, and virtual users/domains.  It's been kind of a pain in the 
+ass setting it up, but now that it's actually working with procmail and all my 
+email accounts are consolidated I'm pretty happy with it.  I got these <a 
+HREF="/images/barry_white_glasses.jpg">Barry White</a> glasses at 
+the flying saucer last week for their christmas pint glass wednesday thing.    
+Today is my mom's birthday, happy birthday.  Also a happy birthday to <a 
+HREF="http://manx.atmos.org">Ben</a> but he's a christmas baby, still 
+two days left.  Merry Christmas and happy new year and all that shit.  

@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: Kemuri
+---
+<img src="http://www.atmos.org/files/drivel_login.png" alt="drivel login splash" align="right" />Since I still haven't gotten around to fixing my galleries I uploaded the first few that I liked to "flickr":http://www.flickr.com/photos/atmos/.  They only give you 20MB of space a month for free, so I'm full until next month :)  Flickr seems pretty cool though, 25$ for the year and 2GB of images to upload a month.  I'm seriously debating just getting an account there, but I don't think it'd be that hard to redo my galleries 'flickr-like'.  When I think about how minimalistic my requirements are, I know should just do it myself. :)
+
+* A list of gallery images
+* multi-file upload
+* exif support
+* tag support
+* slideshow and simple navigation.
+
+I tinkered with desktop clients to post to typo with today.  "BloGTK":http://blogtk.sourceforge.net took some manual interaction to get functioning on "gentoo":http://www.gentoo.org and it just segfaults if I click the 'Advanced' tab. :(  I tried "drivel":http://www.dropline.net/drivel/ after that and it seems to work pretty well.  I had to grab the source from sourceforge, as portage still has the 1.x version available and doesn't work with typo.  I really wish I could use something like "ecto":http://ecto.kung-foo.tv.  I didn't like the splash screen that came with drivel, so I changed it to a picture Will took of Allison over the weekend.

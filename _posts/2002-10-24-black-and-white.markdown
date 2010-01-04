@@ -1,0 +1,6 @@
+--- 
+layout: post
+title: Black and White
+---
+<p>The trip to DC was fun.  I didn't get shot by the sniper, played pool, went to a wine and jazz festival, saw an atmosphere show, watched some football, drank excessively, saw my old friend gary, and hung out with Holly a good bit.  Kayaking got cancelled due to rain.  The atmosphere show was amazing, and I took a bunch of black and white photos which if I ever get them developed I can hopefully scan in.  Having a girlfriend at home proved to make the weekend awkward, but it was still really cool.</p>
+<p>After using <a href="http://www.xchat.org">xchat</a> for a few months, I've moved to <a href="http://www.irssi.org">irssi</a>.  I liked how xchat worked with galeon quite a bit, anyone know a irssi script to interface with galeon?.  I used <a href="http://www.bitchx.org">BitchX</a> when I first started using linux, and eventually moved to <a href="http://www.epicsol.org">Epic</a> and <a href="http://te.e1f.net/">Third Eye.</a>  I guess I've started using IRC again, it's just not as fun as it was back in the days of #oldlinux on the <a href="http://www.undernet.org">Undernet</a>.  Somebody told me someone else took over the channel when we all quit going a year or so ago.</p>

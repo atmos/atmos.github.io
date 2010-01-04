@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: Thrice
+---
+It's a pretty neat hack that keeps growing and growing.  I need to get
+"slaird":http://www.scottstuff.net to merge it in soon as my tree is starting
+to diverge from trunk.  A quick rundown of the features it offers are:
+* supports as many file attachments as desired per post
+* support file uploads not associated with a post
+* "Upload Progress":http://sean.treadway.info/demo/upload on individual files
+* Functional and Unit tests for all new and some old code that was missing
+* More Ajax in the admin interface for category and attachment article
+* association
+* used by typo's meta_weblog file upload api
+
+"courtenay":http://habtm.com gave me a bunch of useful input(he was one of the
+few who actually looked at my first patch).  He also mentioned that the code
+might make for a useful rails generator.  I think it might too. :)
+
+My "Agile Web Development with Rails":http://www.amazon.com/exec/obidos/tg/detail/-/097669400X/qid=1124222802/sr=8-1/ref=pd_bbs_1/104-6250551-7823907?v=glance&s=books&n=507846 copy arrived the other day.  I dove straight into the testing chapters. :)  For some reason I really prefer actual books over electronic copies.

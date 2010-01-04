@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: Duration 4 of 16
+---
+After a little over a month and a half shorthanded at work they've brought in another person.  He seems pretty bright and knowledgeable about UNIX stuff, and he's recently displaced from New Orleans.  I don't see it being to large of a task to bring him up to speed quickly.  Hopefully he'll be in our on-call rotation in a few weeks. :)

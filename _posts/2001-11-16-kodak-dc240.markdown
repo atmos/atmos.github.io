@@ -1,0 +1,16 @@
+--- 
+layout: post
+title: Kodak DC240
+---
+I got <a href="http://www.cozmo85.net">Cozmo's</a> old <a 
+HREF="http://www.kodak.com/US/en/digital/cameras/dc240/">Kodak DC240</a>, 
+which he was nice enough to let go for pretty cheap(95$).  I've added a couple new 
+pictures of <a href="/zelda/">zelda</a> that I took with it.  The dope thing about 
+this cam is that it works with <a href="http://www.gphoto.org">gphoto</a> under 
+linux. =)  The next 10 days are gonna be chalk full of code, integration, and finding 
+out if really designing a system before-hand ends up making it easier to implement.  
+We've actually got a cool design, but the time constraints are gonna make it rough to 
+properly test it.  I added a <a 
+HREF="/sshots/index.php?im=atmos-11-16-2001.png">screenshot</a> of e17 I took 
+the other day, you can see the iconbar on the desktop, and that the desktop is no 
+longer monitoring your home directory so it's a lot less crowded.

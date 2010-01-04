@@ -1,0 +1,7 @@
+--- 
+layout: post
+title: Patching
+---
+<p>So I got the patch.  21 milligrams of Nicoderm CQ every 24 hours.  The manual says this shit takes 10 weeks to quit, I dunno about having stickers on my arm for that long.  I'm lame, aparently I can't quit smoking on will-power alone.  I've been smoking for roughly 7 years now and it's getting kinda old.  I used to be really athletic, now I get winded from running up four flights of steps.  Hope this works, my arm is twitching where the patch is...</p>
+<p>I'm brothersitting this weekend.  My parents went to see my niece for her first birthday.  Brothersitting consists of making sure my brothers(15 and 17) are alive when my parents return, and that there are no parties at their house.  So far so good.  Plus I get to spend time with <a href="/bridie/">Bridie</a>.</p>
+<p>Funky links that crossed my path this week include, a Larry Wall <a href="http://interviews.slashdot.org/interviews/02/09/06/1343222.shtml?tid=145">Interview</a>, Ambrose  Bierce's <a href="http://sunsite.berkeley.edu/Literature/Bierce/DevilsDictionary/">Devil's Dictionary</a>, <a href="http://www.infiltration.org">Infiltration</a> a site dedicated to urban exploration, <a href="http://www.eee.metu.edu.tr/~canacar/pftop/">pftop</a> a top utility for <a href="http://www.benzedrine.cx/pf.html">pf</a>, and <a href="http://people.ee.ethz.ch/~oetiker/webtools/rrdtool">RRDTool</a> a log graphing thingie(haven't used it yet, but it looked cool).  And that's about it.</p>

@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: Summertime
+---
+<p>Well this week has been rather interesting.  My friend Chris came to visit, and I think he had a much more mellow time than he expected.  We ended up seeing Spiderman and Star Wars accompanied by a lot of time just hanging out.  The week turned out decent, and he just left about an hour ago.</p><p>I threw <a href="http://www.debian.org">Debian</a> on my sister's imac while my laptop was away, it ran surprisingly well.  I got my ibook back from apple, they replaced the whole bottom chasis which I thought was pretty cool.  I've got a fresh linux install on it, and it's running like a dream.</p><p>It seems that about 85% of the hardware I owned 2 months ago is dead.  The current deathtoll is 2 motherboards, 2 cpus, 1 hard drive, and 1 dvd drive.  I've finally gotten enough hardware to figure out what is actually messed up and what isn't.  This resulted in the rebuilding of my desktop machine which finally works again.  I really missed having a shitload of desktop space...</p>

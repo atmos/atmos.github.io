@@ -1,0 +1,27 @@
+--- 
+layout: post
+title: THE blurb of 2001
+---
+I just went to <a href="http://www.eatsleepcode.net">Allen's</a> site and he's
+redoing it to have tips or something.  It's broken right now but it's always
+worth checking out.  <a href="http://www.nothingkillsfaster.com">Niekze</a> is
+like non stop webupdate dude.  Someone please give him a job doing unix shit.  I
+ordered an ibook, one of the new ones, and it's coming with OS X.  That should
+be fun to fuck with, and if it sucks i can run linux ppc on it.  I've kept
+freebsd on my desktop for like 2 weeks or so now and I'm still liking it. 
+Detroit last weekend was off the heezy for sheezy.  The IMYTA is really dope for
+rollerblading, the contest was dope, the skating was dope, the people are dope.
+ <B>IMYTA</B> is the <B>I M</B>atch <B>Y</B>our <B>T</B>rick
+<B>a</B>association(preachin knowledge)  I'm really surprised we never got
+arrested in detroit, I guess someone was looking out for us.  Check out <a
+HREF="http://www.worshiprecs.com">Worship Records</a>, <a
+HREF="http://news.linuxprogramming.com/news_story.php3?ltsn=2001-05-15-001-06-LT">GCC</a>
+3.0 status is kinda funny, the developer is gonna commit suicide if GCC 3.0
+isn't released by some date.  DJ Krush is dope.  Jenny Mayer is in Memphis. 
+Sushi at sekisui owns. That mysql/php shit went really well and it's done. Back
+to the K&R C book....  If for some strange reason you're on my site, and you've
+never been here before.  Respect.  Respect in the sense that I hope you have
+what you want.  Whatever it is you may be doing right now if it makes you happy
+and you wouldn't trade it for the world I bid you well.  Or if you're working
+towards something, with a goal in mind I bid you good luck.  In reality though,
+this is just another website documenting the free time of some kid, me.

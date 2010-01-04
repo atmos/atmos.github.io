@@ -1,0 +1,16 @@
+--- 
+layout: post
+title: 52 Pickup
+---
+Comcast came out to replace my modem yesterday, and it was at that point I noticed that the router was dead.  The printer drives my UPS mad if I turn it on, and my workstation beeps a few times when I reboot it...  Luckily all of this should be covered by my renter's insurance, but I'm scared for all of my data on my workstation.  I have music, data, and graphics on there that I could never reproduce. :'(  I'm hoping the beep codes are indicative of some other problem or that the drive lasts long enough for me to transfer off what I need.  I prolly won't be able to pick up a new router for a couple days so I'll be offline until then. :(
+
+At the moment the casualty list look like this:
+* television in our bedroom
+* cordless phone
+* cable modem
+* atleast one UPS
+* printer
+* ibook
+* router
+* kvm
+* my workstation

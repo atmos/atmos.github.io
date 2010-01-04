@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: Anticon
+---
+A while back I wrote this cryptic ass "perl":http://www.perl.com script to generate my .eap icons, the mappings between what windows should map to what icons etc.  In about 45 minutes or so I gutted most of the logic into a tastey "ruby":http://www.ruby-lang.org script.  You specify your icons, mappings, names, etc in a "yaml":http://www.yaml.org file.  It's a hell of a lot easier to share this way as most people can figure out yaml, but would screw up your script if you told them they had to add hash elements.  It also supports some other kinda neat things with very little effort.  You can specify which menus/ibars/submenus the icons should be present in(if any).  You can also specify the order they should appear in any of those containers.  You can download the script with an example yaml file as "icon gen":http://www.atmos.org/files/icon_gen-0.0.0.tar.bz2.

@@ -1,0 +1,5 @@
+--- 
+layout: post
+title: emenus
+---
+I finally got my menu editor to the point where it does something productive.  I've named it ecc, and it'll be <a href="/ecc">here</a> until I move it somewhere <a href="/ecc">else</a>.  <a href="/sshots/index.php?im=atmos-08-05-2001.png">Screenshot</a> of desktop.  I'm so unbelievably sick of summer school it's pathetic. Only 5 more days though!  <a href="http://www.eatsleepcode.net">Allen</a> has been busy with his page and other stuff check it out.  <a href="http://www.nothingkillsfaster.com">Niekze</a> is writing a peer to peer chat thing in tcl which worked pretty well when we used it, he's busy writing a protocol, wonder if he'll finish it?  Hooray the sun is up.  It's been a while since I've made a 6am addition to this webpage, it's kinda nice every once in a while.  night.

@@ -1,0 +1,11 @@
+--- 
+layout: post
+title: Get Fly
+---
+Here's a few screenshots that display the backend functionality of exhibits.
+
+* "All Images View":http://www.atmos.org/files/typo_gallery_admin_images_view.jpg
+* "Image Uploads":http://www.atmos.org/files/typo_gallery_admin_images_upload.jpg
+* "Tag Reordering via Drag and Drop":http://www.atmos.org/files/typo_gallery_admin_dnd_tag_reordering.jpg
+* "Tag management":http://www.atmos.org/files/typo_gallery_admin_tag_management.jpg
+

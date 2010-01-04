@@ -1,0 +1,6 @@
+--- 
+layout: post
+title: Static
+---
+<p>All sorts of static going on these days.  Job search isn't panning out.  I have some temporary web development work that should keep me busy for two weeks or so, but after that I'll pretty much be screwed again.  I'm seriously debating trying to find a job that's completely unrelated to computers.</p>
+<p>OpenBSD didn't work out so well on my iBook.  I ended up with Debian on it, and I'm even running -testing.  I did get a little excited and revamped <a href="/docs/epbb/index.html">epbb</a> to work with edje.  I'm pretty happy with the code currently, next thing is to fix the theme up a little more.  <a href="/docs/entice/index.html">Entice</a> had a few bugs that were discovered on ppc systems, all of these should be fixed now.  <a href="http://www.rephorm.com">Rephorm</a> has been working on a new version of Etcher for Edjes, this should be really cool.</p>

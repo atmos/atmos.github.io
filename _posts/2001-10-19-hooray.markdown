@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: hooray !
+---
+Busy week.  I got <a href="http://www.enlightenment.org">E</a> CVS access, I've 
+added the ecc app to an already existing project named ebindings.  I had a couple 
+issues getting my account straight with sourceforge, but they've worked themselves 
+out and I've checked my stuff into ebindings. =)  I grabbed a copy of <a 
+HREF="http://www.apple.com/macosx/">OS X.1</a> at the apple store that just 
+opened around the corner from my parents house, it was <B>FREE</B> which is 
+always nice.  I've gotten it installed, and after a little toying with it I have come to the 
+conclusion that OS X.1 beats the living shit out of OS X.  It performs like you expect 
+the interface too.  Oh yeah! My ibook is back, I got it monday morning with the 
+DVD/CDRW drive replaced.  It is really nice to have my laptop back.  Had my 
+Operating Systems mid-term last night, that was kinda rough but a good fair test.  
+Software Development is turning out to be a great class that I'm really enjoying.  I'm 
+actually frightened of what <a 
+HREF="http://trident.mcs.kent.edu/~jmaletic/">maletic</a> is gonna have me do for 
+my indepedent study.  Hooray for fridays.
+
