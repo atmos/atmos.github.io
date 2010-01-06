@@ -11,30 +11,4 @@ title: atmos.org ~ Corey Donohoe on the Internet
     {% endfor %}
   </ul>
 
-  <script type="text/javascript">
-    $(function() {
-      var limit = 8        // how many repos to list
-      var login = 'atmos'   // your username
-
-      var repos = [], list = $('ul.oss_projects')
-
-      $.getJSON('http://github.com/api/v1/json/' + login + '?callback=?', function(data) {
-        $.each(data.user.repositories, function() {
-          if (!this.fork) repos.push(this)
-        })
-
-        repos.sort(function(a, b) {
-          return b.watchers - a.watchers
-        })
-
-       $.each(repos.slice(0, limit), function() {
-         list.append('<li><a href="' + this.url + '">' + this.name + '</a></li>')
-       })
-     })
-   })
-  </script>
-
-  <h1>Open Source Projects</h1>
-  <ul class="oss_projects">
-  </ul>
 </div>
