@@ -17,12 +17,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
   font-family: "terfens-1","terfens-2",sans-serif;
+  margin: 5px 130px;
 }
 
 h1 {
-  margin-bottom: 1em;
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
 }
 
 p {
@@ -46,6 +51,12 @@ table {
   font-size: inherit;
   font: 100%;
 }
+
+img {
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
 /*****************************************************************************/
 /*
 /* Site

@@ -13,4 +13,5 @@ for [rack](http://github.com/rack/rack) and
 problems. :D
 
 If all you want to do is install the gem you can install it like this:
+
 `% sudo gem install rack_hoptoad`
