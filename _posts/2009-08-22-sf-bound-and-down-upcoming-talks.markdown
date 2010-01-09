@@ -9,8 +9,23 @@ I'm moving again.  As much as I love Boulder, I'm moving to SF to be closer to <
 
 I'm going to be speaking at three conferences over the next few months so I figured I'd mention them here.
 
-I'm going to be speaking at <a href="http://rubyhoedown.com">the ruby hoe down</a> in August on "how to be simply awesome."  It's basically a run down of how <a href="http://github.com/halorgium">tim</a> and I are winning on the regular.  Unfortunately I won't be there for the full conference because I'm catching a plane to Austin later that night.
+I'm going to be speaking at [the ruby hoedown](http://rubyhoedown.com) in
+August on "how to be simply awesome."  It's basically a run down of how
+[halorgium](http://github.com/halorgium) and I are winning on the regular.
+Unfortunately I won't be there for the full conference because I'm catching a
+plane to Austin later that night.
 
-The next day in Austin I'll be presenting at <a href="http://lonestarrubyconf.com/">Lone Star Ruby Conf</a> on the same topic with a slightly different title.  I'm hoping my connecting flights allow this to happen because I'm pretty excited about the subject.  I just gave the talk internally at EY and it needs a little work but I think I finally understand how to present the topic to people.
+The next day in Austin I'll be presenting at <a
+href="http://lonestarrubyconf.com/">Lone Star Ruby Conf</a> on the same topic
+with a slightly different title.  I'm hoping my connecting flights allow this
+to happen because I'm pretty excited about the subject.  I just gave the talk
+internally at EY and it needs a little work but I think I finally understand
+how to present the topic to people.
 
-<strong>I'm speaking at <a href="http://alohaonrails.com">a conference in HAWAII</a></strong>, aloha on rails.  I'm doing a talk on open source software and independent hip hop label's evolution over the last decade or so.  I'm gonna do my best to not come off like a marketing douche bag, but I'm going to present a bunch of similarities between open source craftsmanship and successful indie rappers.  You should go come!  I'm hoping to get some surfing in, let me know if you're interested!
+**I'm speaking at [a conference in HAWAII](http://alohaonrails.com">a conference in
+HAWAII)**, aloha on rails.  I'm doing a talk on open source software and
+independent hip hop label's evolution over the last decade or so.  I'm gonna do
+my best to not come off like a marketing douche bag, but I'm going to present a
+bunch of similarities between open source craftsmanship and successful indie
+rappers.  You should go come!  I'm hoping to get some surfing in, let me know
+if you're interested!
