@@ -1,6 +1,0 @@
---- 
-layout: post
-title: shit, blah, and more shit
----
-<B>The human race has one really effective weapon, and that is laughter.
-<BR>-- Mark Twain</B></BR>  I been coding a lot of evas stuff lately, can't explain it but Evas is dope.  <a href="/images/cork.jpg">Look</a>.  blah blah blah this is a webpage update, I'm filling it with content!  Just got back from the <a href="http://www.beerknurd.com">Flying Saucer</a> where on Wednesdays you're supposed to receive the pint glass of their beer of choice, but by the time I got there tonight, they were out. =(  At this time it looks like Dmitry Sklyarov is still in prison, though I think I read somewhere that adobe might choke under pressure and buy that guy first class tickets home to see his kids. <a href="http://www.cozmo85.net">Cozmo</a> got demoted, HAHAHAHAAHAHA, sucker.  <a href="http://www.secondregime.com">Second Regime</a> got a website, not related to lunix or me anymore, but worth looking at.  <a href="/edock">Edock</a> is one of the things I've been working on lately.  It's neat if you're running e17, it still needs some more functionality, as all it does right now is launch apps and do pretty things.  blah blah blah end of update <B>here</B>.

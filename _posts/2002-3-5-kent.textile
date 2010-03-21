@@ -1,5 +1,0 @@
---- 
-layout: post
-title: Kent
----
-<p>After driving up to <a href="http://www.kent.edu">Kent</a> yesterday with my friend Erik we checked out the school today.  It looks really fun and cool.  Now I'm just killing some time before we go eat dinner, so I figured I'd update my page.</p><p>If you have a sense of humor and don't mind vulgarity check out <a href="/operationfreedom">Operation Enduring Freedom</a> comics.  I mirrored the images locally and have set up browsing stuff.  It needs some reorganization, but damn that shit is funny.</p>

@@ -1,5 +1,0 @@
---- 
-layout: post
-title: life and school with work
----
-<p>So I've gotten my job.  I'm working at <a href="http://www.memphis.edu">school</a>, doing linux related development and administration for the computer science and math department.  This week has kinda been slow, create linux images for the next desktop ghost, find a way to replace Norton System Commander(hooray Grub), and learn about ldap and NIS.  I am already sick of looking at ldap shit.  I'm actually killing my last 20 minutes at work today writing this update.  So a light load of classes this semester plus work might end up being kinda fun.  It's just kinda time consuming, some days I'll be spending 11 hours at school between class and work.  I honestly don't give a shit though, I get to work with <a href="http://www.linux.org">Lunix</a>.</p><p><a href="http://www.archive.org">Archive.org</a> is a great way to find all those 1950's propoganda movies you've always wanted.  <a href="http://www.somethingawful.com">SA</a> doesn't seem to be slowing down in producing content, hooray! 

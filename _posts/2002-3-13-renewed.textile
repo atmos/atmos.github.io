@@ -1,7 +1,0 @@
---- 
-layout: post
-title: Renewed !
----
-<p>Record expires on 22-Mar-2011.</p>
-<p>So I went a little overboard on the renewal, but I don't have to think about renewing my domain for a few years.  My family seems to think that the web won't last that long, and that I'm wasting my money.  I hadn't really given it much thought, maybe domains will roll over into some new shit, but atleast I'll have email here for a while.</p>
-<p>School trudges along.  Set up a <a href="http://www.openlysecure.org/openbsd/how-to/invisible_firewall.html">Transparent Firewall</a> at work under <a href="http://www.openbsd.org">OpenBSD</a> 3.0.  Been goofing off learning shit here and there.  Trying to finish up the last few additions to ebony in the next week or so.  Other then that...

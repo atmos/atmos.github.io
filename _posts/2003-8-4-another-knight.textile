@@ -1,7 +1,0 @@
---- 
-layout: post
-title: Another Knight
----
-<p>I have been so disgustingly busy lately. Calc test and Linear algebra quiz tomorrow, followed by a linear algebra test the next day.  Things have been sorta like that for the past two weeks, but summer session might just turn out ok.  I have to go take my senior test tonight.  The senior test is some general test they give all graduating students from all over the university.  Apparently you have to pass it to graduate, but everyone I've talked to said it was a trivial joke.</p>
-<p>My brothers and I have been playing <a href="http://www.pdga.org">frisbee golf</a> a few times a week for the past few weeks.  It's surprisingly fun and relaxing, plus it's the first time in years we've been able to do something together that we all enjoy.  Even "The Lebowski"(my dad) has come out and played with us twice.  I was unlucky enough to get another shitty case of <a href="http://www.everything2.com/index.pl?node_id=1128366">poison ivy</a>, I'm hoping this bout will go away without visiting the doctor.</p> 
-<p>Entrance + Edje is in e cvs, and hopefully I've have debs available for most of the E tree available at <a href="http://e.atmos.org">e.atmos.org</a> in the days/weeks to come.  It's a shame I'm only going to get a few days off between summer and fall semesters.  I'd love to have a two or three week vacation where I just got to sit around and do what I wanted to do.</p>

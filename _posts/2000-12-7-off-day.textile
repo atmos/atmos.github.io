@@ -1,5 +1,0 @@
---- 
-layout: post
-title: Off-Day
----
-<a href="http://www.mozilla.org/releases/mozilla0.6/">Mozilla 0.6</a> was released today, and it's been running really nice for me all morning.  I picked up a book on C and started toying with that today too.  I added a screenshot if you wanna look it's <a href="http://atmos.yi.org/shots/atmos-12-07-2000.png">here</a>.  Eggman, who themes for a variety of window managers(I've always liked the arctic themes) has a site I just found at <a href="http://arcticzone.org">Arctic Zone</a>.  <a href="http://freebsd.org">FreeBSD 4.2</a> is out(I know it's been out), the release notes are <a href="http://www.freebsd.org/releases/4.2R/notes.html">here</a>, and <a href="http://www.netbsd.org">NetBSD 1.5</a> is out, and you can see what it's all about <a href="http://www.netbsd.org/Releases/formal-1.5/">here</a>. Classes are done, only exams are left, this time next week I'll get to be a complete bum for a month.

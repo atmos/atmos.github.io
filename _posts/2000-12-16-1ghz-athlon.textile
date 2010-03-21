@@ -1,5 +1,0 @@
---- 
-layout: post
-title: 1Ghz Athlon
----
-I picked up a 1Ghz AMD Thunderbird today, for 180$, which I think was well worth the cash.  I cashed in my change jar I've had for a few months, got 70$ from that, and 100$ from selling an older setup to a friend and I can think of this upgrade as essentialy free.  It's a huge increase in performance and I'm diggin it, turned out to be as simple as unplugging my Duron, and throwing the new CPU in my current motherboard.  Here's my <a href="/pics/athlon-cpuinfo.png">cpuinfo</a>. I played frisbee in the rain today with my brother and my dog for about an hour and had a blast, I didn't even mind getting soaked.

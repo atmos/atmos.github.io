@@ -1,5 +1,0 @@
---- 
-layout: post
-title: Updates !!!
----
-Ok.  I moved.  My internet has been up, I just have been to freakin lazy to set my webserver up with stuff I wanna show the world.  I did a lot of php-imlib stuff when I was without inet, but the page just eats too much CPU because I ended up making <B>EVERYTHING</B> dynamic.  New house is great, I love my room and how close it is to school.  I miss <a href="/showimage.php?p=/images/bridie.jpg">Bridie</a> <B>a lot</B>.  Notice my abuse of bold facing this update =).  School is coming to a close we only have like 2.5 weeks left or less I dunno.  So I'm getting swamped with shit that's pending etc.  Last week was hell, next week will be too.  What do I have to look forward to this summer? Calculus 2, ugh.  Been doing some C coding again, but I really need a semester without a programming class where I can really dedicate some time to doing it right.  nuff for now. I'll update this weekend perhaps.

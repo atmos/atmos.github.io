@@ -1,5 +1,0 @@
---- 
-layout: post
-title: myclock v0.01
----
-I guess <a href="/files/myclock-0.01.tar.gz">here</a> is what I've been toying with lately.  It turned out to be a descent introduction to C for me, and I learned that most of what I knew of C++ transfered right over.  I still haven't touched a piece of dynamic memory in C yet, but that'll happen eventually.  You need imlib2 installed for myclock to work.  <a href="http://www.gimp.org">The GIMP</a> version <a href="ftp://ftp.gimp.org/pub/gimp/v1.2">1.2.0</a> has been released and is prolly worth picking up.  <a href="http://www.php.net">PHP 4.0.4</a> has been released, which is idealy what I'd like to transfer this site over to using..... Also saw this over at <a href="http://slashdot.org">Slashdot</a> about <a href="http://www-server.bcc.ac.uk/~zcapl61/santa.html">Is there a Santa Claus</a> which I found kinda funny.

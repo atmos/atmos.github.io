@@ -1,8 +1,0 @@
---- 
-layout: post
-title: /* End Spring 2003 */
----
-<p>It's done, it's over, hooray!  Exams went fine, and I ended up opting out of my Logic final to do an independent project.  It ended up being a language definition for predicate logic and it turned out quite cool.  I'm planning on working a little more often in the weeks to come and taking summer classes.  If all goes well I might be graduating sometime. 
-</p>
-<p><a href="http://www.paulgraham.com/hp.html">Hacking and Painting</a> is an interesting write up from <a href="http://www.paulgraham.com">Paul Graham</a>.  An interesting thread that made me laugh, <a href="http://www.malevolent-gaming.com/phpBB2/viewtopic.php?t=210">Men Speak in C; Women Speak in Java</a>, <a href="http://ningerso.atmos.org">RbdPngn</a> pointed it out over at <a href="http://mandrake.net">mandrake.net</a>.  There is an updated version of epbbuttons available it can be downloaded <a href="/files/epbbuttons-0.0.4.tar.gz">here</a>(<a href="/code/epbbuttons/shot1.png">sshot</a>)</p>
-<p>Congratulations to my brother Devin who graduated from high school today, I overslept and didn't make it.  Went to <a href="http://www.memphisinmay.org">Memphis in May</a> Beale Street Music Festival last weekend, India Irie was about it for good performances that I caught.  I also played <a href="http://discgolf.com">disc golf</a> for the first time the other day, it's a lot of fun.  You pretty much just throw frisbees at targets in the woods.  I got <a href="http://www.everything2.com/index.pl?node_id=1128366">poison ivy</a>, but I'll prolly end up playing it again.</p>

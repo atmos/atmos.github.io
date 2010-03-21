@@ -1,5 +1,0 @@
---- 
-layout: post
-title: 2 down 2 to go
----
-Two exams yesterday went rather well, I haven't studied for my CS final which is today, but I should do fine on it.  Added a script to add pixmaps to the random backgrounds that are chosen in Eterms it's <a href="/files/add-pic.sh">here</a>.  Installed e17 the other day, got it working <a href="/shots/atmos-e17-12-12-00.png">here</a>, it's functioning but not very far into development yet. Gonna hopefully start getting to mess with C this weekend and learn how to build useful things. Who knows....

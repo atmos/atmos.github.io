@@ -1,5 +1,0 @@
---- 
-layout: post
-title: AKIRA
----
-I picked up a Special Edition Copy of AKIRA yesterday.  It comes with a second CD about the restoration, the sound, and an interview with the dude who wrote it.  Overall it's rad to have a classic like AKIRA in my dvd collection.  E changed, it uses db files to store background images.  The backgrounds support layers, gradients, images, colors and text shouldn't be tough to add.  It's cool because you can simply give db files to other people and they get the exact same look you have the background stored as.  It's got a tool to configure them it's called ebony.  <B>2 weeks</B> left in summer school and I can rightfully say I'm sick of going to school right now, just gotta stay motivated for 2 more weeks.    <a href="/edock">Edock</a> does still work with the new changes to E. =)  
