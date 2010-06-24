@@ -70,20 +70,20 @@ img {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
+  width: 45em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
 .title {
   color: #a00;
-  font-weight: bold;
   margin-bottom: 2em;
 }
 
 .title a {
-  font-size: 1.3em;
-  padding: 1px 4px;
+  font: 28px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', arial, clean, sans-serif;
+  margin: 0;
+  padding: 1px 3px;
 }
 /*****************************************************************************/
 /*
@@ -156,4 +156,38 @@ img {
 
 #post .slideshare {
   margin: 0 auto;
+}
+
+/* failz */
+#archives {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#archives div.post-title {
+  border: 1px solid #000;
+}
+
+#archives div.post-title h2 {
+  font: 36px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', arial, clean, sans-serif;
+  text-align: right;
+  margin: 4px 2px;
+  padding-right: 10px;
+}
+
+#archives div.post-title h2 a {
+  text-decoration: none;
+}
+
+#archives div.post-title h2 a:hover {
+  text-decoration: underline;
+}
+
+#archives div.post-title span {
+  display: block;
+  font: 14px 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', arial, clean, sans-serif;
+  text-align: right;
+  margin: 2px 2px;
+  padding-right: 10px;
+  clear: both;
 }

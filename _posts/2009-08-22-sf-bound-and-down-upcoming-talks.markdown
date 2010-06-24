@@ -1,10 +1,9 @@
 --- 
-wordpress_id: 387
 layout: post
 title: SF bound and down, upcoming talks
 excerpt: I'm moving to SF!
-wordpress_url: http://atmos.org/?p=387
 ---
+
 I'm moving again.  As much as I love Boulder, I'm moving to SF to be closer to
 [Engine Yard](http://engineyard.com).  After years of telecommuting I find
 myself wanting to work with people in person more and more.  Boulder is, and
