@@ -15,7 +15,7 @@ non-functional pieces of the UI that are at least partially exposed, and you
 need to make sure the client knows that these things aren't complete.
 
 In Robby's post he implemented a simple javascript function that could be
-called via a custom link helper.Nice and simple.  Here's the js:
+called via a custom link helper.Nice and simple. Here's the js:
 
 <script src="http://gist.github.com/13902.js">
 </script>

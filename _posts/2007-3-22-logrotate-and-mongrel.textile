@@ -8,16 +8,16 @@ Everywhere I looked online I found stuff like "this":http://blade.nagaokaut.ac.j
 
 <pre>
 /home/atmos/Sites/atmos.org/shared/log/*.log {
-        daily
-        missingok
-        compress
-        sharedscripts
-        olddir old
-        rotate 28
-        postrotate
-          for i in `ls /home/atmos/Sites/atmos.org/shared/log/*.pid`; do
-            kill -USR2 `cat $i`
-          done
-        endscript
+  daily
+  missingok
+  compress
+  sharedscripts
+  olddir old
+  rotate 28
+  postrotate
+    for i in `ls /var/atmos.org/shared/log/*.pid`; do
+      kill -USR2 `cat $i`
+    done
+  endscript
 }
 </pre>

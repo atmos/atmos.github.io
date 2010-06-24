@@ -17,12 +17,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "terfens-1","terfens-2",sans-serif;
+  font-family: helvetica, "terfens-1","terfens-2", arial, clean, sans-serif;
   margin: 5px 130px;
 }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 1.9em;
 }
 
 h2 {
@@ -60,6 +60,7 @@ img {
 .footer {
   margin: 7px 15px;
   text-align: center;
+  font-size: 1.1em;
 }
 
 /*****************************************************************************/
@@ -68,11 +69,8 @@ img {
 /*
 /*****************************************************************************/
 .site {
-  font-size: 110%;
-  text-align: justify;
-  width: 45em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
+  margin: 0 auto;
+  padding: 25px 10px;
 }
 
 .title {
@@ -81,9 +79,10 @@ img {
 }
 
 .title a {
-  font: 28px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', arial, clean, sans-serif;
+  font: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', arial, clean, sans-serif;
   margin: 0;
   padding: 1px 3px;
+  font-size: 1.9em;
 }
 /*****************************************************************************/
 /*
@@ -92,15 +91,16 @@ img {
 /*****************************************************************************/
 #post {
   width: 850px;
+  font-size: 150%;
   margin: 0 auto;
 }
 
 #post p {
-  font-size: 110%;
   width: 575px;
   text-align: left;
   margin: 0 auto;
   padding: 6px;
+  font-size: 1.0em;
 }
 
 #post .gist {
@@ -110,11 +110,24 @@ img {
   margin: 0 auto;
 }
 
+#post h1, #post h2, #post h3 {
+  text-align: left;
+  border-bottom: 1px solid #999;
+}
+
+#post h2 {
+  font-size: 1.2em;
+}
+
 /* standard */
-#post pre {
+#post pre, #post .gist {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+  margin: 0 auto;
+  width: 550px;
+  text-align: left;
+  font-size: 0.8em;
 }
 
 #post ul,
@@ -123,6 +136,7 @@ img {
   text-align: left;
   margin: 0 auto;
   padding: 2px;
+  font-size: 0.8em;
 }
 
 #post code {
@@ -170,9 +184,9 @@ img {
 
 #archives div.post-title h2 {
   font: 36px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', arial, clean, sans-serif;
-  text-align: right;
+  text-align: left;
   margin: 4px 2px;
-  padding-right: 10px;
+  padding-left: 15px;
 }
 
 #archives div.post-title h2 a {

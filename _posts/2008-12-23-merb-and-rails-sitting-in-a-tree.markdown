@@ -1,12 +1,13 @@
 --- 
-wordpress_id: 213
 layout: post
 title: Merb and Rails Sitting in a Tree
-wordpress_url: http://atmos.org/?p=213
 ---
+Rails and Merb Merge
+====================
+
 <ul>
-	<li><a href="http://rubyonrails.org/merb">Ruby on Rails: Merb</a></li>
-	<li><a href="http://yehudakatz.com/2008/12/23/rails-and-merb-merge/">Rails and Merb Merge</a></li>
+  <li><a href="http://rubyonrails.org/merb">Ruby on Rails: Merb</a></li>
+  <li><a href="http://yehudakatz.com/2008/12/23/rails-and-merb-merge/">Rails and Merb Merge</a></li>
 </ul>
 
 Who'd have thought?  In case you didn't know the two powerhouses in Ruby Frameworks are going to start working together to make the world a better place.  This brings up a lot of emotions for me and gives me hope for the community.

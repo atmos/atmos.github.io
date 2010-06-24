@@ -5,6 +5,9 @@ title: "Flatirons : A Merb OpenID Provider Part 1"
 wordpress_url: http://atmos.org/?p=80
 ---
 
+Flatirons OpenID Server
+=======================
+
 [What are the flatirons](http://www.powerset.com/explore/semhtml/Flatirons?query=what+are+the+flatirons)
 you say?  They're a rock formation near my house in Colorado, they look like
 this in the winter.

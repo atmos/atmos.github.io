@@ -1,9 +1,12 @@
 --- 
-wordpress_id: 248
 layout: post
 title: Considerations for Creating a Test Driven Ruby Project
-wordpress_url: http://atmos.org/?p=248
 ---
+Creating a TDD Ruby Project
+===========================
+
+Where this comes from
+---------------------
 
 I'd originally wanted to do something like "how our group at <a
 href="http://engineyard.com">EY</a> specs things" but I feel like a lot of
@@ -23,15 +26,17 @@ to collaborate.
 
 Here's a few things that stick out in my mind:
 <ul>
-	<li><a href="#readme">You should have a README that tells another developer how to get up and running</a></li>
-	<li><a href="#testing">You should really be testing, even if it's after the fact</a></li>
-	<li><a href="#naming_tests">Name Your Tests/Specs after what it does</a></li>
-	<li><a href="#mocks">Be able to toggle mocks and integration tests easily</a></li>
-	<li><a href="#github">Use GitHub</a></li>
-	<li><a href="#ci">How will this commit affect Continuous Integration?</a></li>
+  <li><a href="#readme">You should have a README that tells another developer how to get up and running</a></li>
+  <li><a href="#testing">You should really be testing, even if it's after the fact</a></li>
+  <li><a href="#naming_tests">Name Your Tests/Specs after what it does</a></li>
+  <li><a href="#mocks">Be able to toggle mocks and integration tests easily</a></li>
+  <li><a href="#github">Use GitHub</a></li>
+  <li><a href="#ci">How will this commit affect Continuous Integration?</a></li>
 </ul>
 
-<h3 id="readme">You should have a README that tells another developer how to get up and running</h3>
+You should have a README that tells another developer how to get up and running
+-------------------------------------------------------------------------------
+
 If some random person needs to add a feature or fix a bug in your software,
 they're prolly going to have to do some setup. Maintain this README. The
 easier it is to get a system bootstrapped to start developing and enhancing the
@@ -41,7 +46,8 @@ requests</a>.  Let other people do some of the work for you. Even <a
 href="http://twitter.com/drnic/statuses/952116463">Dr Nic</a> thinks it's a
 good idea!
 
-<h3 id="testing">You should really be testing, even if it's after the fact</h3>
+You should really be testing, even if it's after the fact
+---------------------------------------------------------
 
 I don't care how fucking smart you are, software maintenance isn't easy.  I've
 seen folks argue that <a
@@ -68,7 +74,8 @@ important and what will cause major breakage if it changes.  By not testing
 you're saying "I really don't care whether or not this project lives a long,
 happy life."
 
-<h3 id="naming_tests">Name Your Tests/Specs after what it does</h3>
+Name Your Tests/Specs after what it does
+----------------------------------------
 
 At the first <a href="http://railsconf.org">railsconf</a> I remember <a
 href="http://twitter.com/srbaker">srbaker</a> talking about rspec and how much
@@ -90,7 +97,8 @@ with merb, sinatra, or rails.  You're basically writing acceptance tests that's
 like a fake browser request with persistent sessions.  Name your acceptance
 tests according to what they validate and you'll be in business.
 
-<h3 id="mocks">Be able to toggle mocks and integration tests easily</h3>
+Be able to toggle mocks and integration tests easily
+----------------------------------------------------
 
 We recently did a bunch of stuff with <a
 href="http://dev.braintreepaymentsolutions.com/">braintree</a> for some payment
@@ -114,14 +122,16 @@ that big of a deal when you know it's really running against the remote
 service.  Of course my friend Tim has some ideas about <a
 href="http://github.com/halorgium/mockz0r/tree/master">mocks</a> too.
 
-<h3 id="github">Use GitHub</h3>
+Use GitHub
+----------
 
 I use <a href="http://whygitisbetterthanx.com/">git</a>, my homies at <a
 href="http://github.com">GitHub</a> get it.  It's all I've been using since
 February of 2008.  I really can't say enough good things about github, it
 really simplifies things when collaborating on software.
 
-<h3 id="ci">How will this commit affect Continuous Integration?</h3>
+How will this commit affect Continuous Integration?
+---------------------------------------------------
 
 You do use continuous integration, right?  Continuous Integration is just a
 remote machine that runs your test suite every time someone pushes code.  I use
@@ -136,7 +146,8 @@ tracking down some shit I committed?  How well do these changes work outside of
 my machine?  This is stuff that you really want to consider when you
 collaborate.
 
-<h3 id="collaboration">Collaboration is King</h3>
+Collaboration is King
+---------------------
 
 Collaboration keeps bubbling to the surface here.  Perhaps I should change the
 title.  These suggestions have little merit if you're not interested in
