@@ -1,9 +1,11 @@
 --- 
-wordpress_id: 336
 layout: post
 title: "Hancock-Client-Rails : Using Sinatra/Rack Middleware in Rails"
-wordpress_url: http://atmos.org/?p=336
 ---
+
+Hancock-Client-Rails: Works with Rails > 2.3.x
+==============================================
+
 Recently I've been writing a bunch about <a href="http://sinatrarb.com">sinatra</a> as middleware and one of the things you always hear people glorifying is how rack middleware can be dropped into any framework that's built on rack.  Since I'm trying to get people to try <a href="http://github.com/atmos/hancock">hancock</a> out, or atleast learn something from it, I figured I should investigate how you actually use the <a href="http://github.com/atmos/hancock-client">hancock-client</a> sinatra app inside off rails 2.3.2.
 
 One of the examples I've seen in quite a few presentations on using middleware in rack has something along the lines of:

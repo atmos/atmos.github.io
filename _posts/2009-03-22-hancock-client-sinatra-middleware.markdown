@@ -1,9 +1,11 @@
 --- 
-wordpress_id: 311
 layout: post
 title: "Hancock-Client : Sinatra Middleware"
-wordpress_url: http://atmos.org/?p=311
 ---
+
+Hancock-Client: Middleware
+==========================
+
 With the release of <a href="http://sinatrarb.com">sinatra</a> version 0.9.1, programmers have the option to write micro-apps that double as middleware in any other <a href="http://github.com/chneukirchen/rack/tree/master">rack</a> enabled application.  The beauty in this is that you can write rack middleware without getting bogged down in the details of writing rack directly.  Perhaps it's your first time leveraging rack and you want to test the waters or perhaps you're just wanting to slap a little bit of functionality onto someone else's code; sinatra is emerging as a great way for folks to start really sinking their teeth into how rack functions.
 
 I recently found myself waist-deep in rack.  A lot of my co-workers at <a href="http://engineyard.com">EY</a> have been telling me for some time where rack made sense and where it didn't.  I didn't really grasp it all.  I understood it as a concept but there was nothing in my day to day work that made me say "Hey!  I'm gonna use rack here!"  At least until the other day.  <a href="http://mwrc2009.confreaks.com/13-mar-2009-11-05-in-a-world-of-middleware-who-needs-monolithic-applications-jon-crosby.html">Jon Crosby rocked out with a great talk at MWRC</a> and one of <a href="http://github.com/abcde">my friends at work</a> had written a little sinatra app that we needed to merge into our Single Sign On(SSO) infrastructure.  <a href="http://github.com/halorgium">Tim</a> took advantage of an existing rack <a href="http://openid.net">openid</a> library and made the necessary modifications to hook it in cleanly, he then went on vacation and left the gem abstraction to me.  I'm really grateful for this because it really made me sit down and acquaint myself with sinatra.  What I found was something pleasurable, elegant, and useful.

@@ -1,9 +1,11 @@
 --- 
-wordpress_id: 293
 layout: post
 title: "Hancock : A Single Sign On Server in Sinatra"
-wordpress_url: http://atmos.org/?p=293
 ---
+
+Hancock: SSO
+============
+
 A while back I blogged about the <a href="http://github.com/atmos/flatirons">flatirons</a> <a href="http://openid.net">openid</a> provider and how it was inspired by something we were doing at Engine Yard.  We needed a single sign on provider and chose to use OpenID as the sso protocol.  Since this is heavily influenced by openid I will often use the word "<strong>provider</strong>" to describe an SSO server.  I also use the word "<strong>consumer</strong>" to describe an SSO enabled application.
 
 So we pretty much drew up a diagram of how openid works and removed the steps we felt were unnecessary(decision/acceptance steps).  We then extended it by adding auto discovery of the openid url.  Here's a somewhat up to date diagram that shows off how things work.  You'll notice that the user-agent(browser) never specifies its identity url, it's automatically provided from the SSO server. 
@@ -49,8 +51,4 @@ As I mentioned earlier, the killer feature of sinatra 0.9.1.1 is that sinatra ap
 So what good is a simple SSO server if you don't have a super simple client library?  I bet if we did it as a <a href="http://github.com/atmos/hancock-client">simple sinatra app</a> then we could turn it into middleware.  Then we could hook our <a href="http://github.com/atmos/hancock-client-rails">rails</a> and <a href="http://github.com/atmos/hancock-client-merb">merb</a> apps up.  Yeah, that'd be sweet.
 
 I'm gonna follow this up in the next few days with something covering the <a href="http://github.com/atmos/hancock-client">hancock-client</a> gem.  This gem provides a sinatra application that can be run standalone or as middleware in other apps.  I'll prolly follow that up with two short articles on "how you get your middleware running in (rails|merb)."  
-
-  
-
-
 
