@@ -5,6 +5,9 @@ title: Link to Unimplemented
 wordpress_url: http://atmos.org/?p=33
 ---
 
+link_to_unimplemented
+=====================
+
 I ran across [this post](http://www.robbyonrails.com/articles/2008/03/27/tip-link-to-unimplemented)
 [Robby Russell](http://www.robbyonrails.com) a while back and really liked the
 idea.  It reminded me a little bit of an older post by 

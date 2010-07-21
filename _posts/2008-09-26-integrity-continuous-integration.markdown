@@ -4,6 +4,7 @@ layout: post
 title: "Integrity : Continuous Integration"
 ---
 <h1>What's it all about?</h1>
+
 <p>
   I'm a big fan of <a href="http://martinfowler.com/articles/continuousIntegration.html"> Continuous Integration</a> when writing software. However I've always found myself disappointed by the CI solutions that are floating around, namely <a href="http://cruisecontrolrb.thoughtworks.com/">Cruisecontrolrb</a>. Managing the processes can become a nightmare once you have a few projects running under it. At work I was recently tasked with revamping our on-again/off-again cruisecontrol setup and I thought to myself "there has got to be something better." It turns out there is, it's called <a href="http://github.com/foca/integrity/tree/master">Integrity</a>. Here's why I love this little piece of software.
 </p>

@@ -1,9 +1,11 @@
 --- 
-wordpress_id: 354
 layout: post
 title: hoptoad for rack
-wordpress_url: http://atmos.org/?p=354
 ---
+
+Rack Hoptoad
+============
+
 So [Tim](http://spork.in) and I were talking about how we needed
 [hoptoad](http://hoptoadapp.com) for our rack apps the other day.  This [rack
 hoptoad notifier](http://github.com/atmos/rack_hoptoad) should get you going

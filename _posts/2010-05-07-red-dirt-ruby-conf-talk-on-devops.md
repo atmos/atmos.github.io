@@ -5,7 +5,7 @@ excerpt: A Short talk on the devops "movement"
 ---
 
 <div>
-  <h2><a href="http://reddirtrubyconf.com">Red Dirt Rubyconf</a></h2>
+  <h1><a href="http://reddirtrubyconf.com">Red Dirt Rubyconf</a></h1>
   <p>
     I posted my slides from red dirt rubyconf. It's about the devops movement
     that's been gaining a lot of momentum in the sysadmin circle.  A lot of

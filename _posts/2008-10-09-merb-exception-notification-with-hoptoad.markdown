@@ -4,7 +4,7 @@ title: Merb Exception Notification with HopToad
 ---
 
 Exceptions
-----------
+==========
 
 One of my frustrations over the past few months has been the lack of a quality exception notifier plugin for <a href="http://merbivore.com">merb</a>. The <a href="http://github.com/newbamboo/merb_exceptions/tree/master">New Bamboo Merb Exceptions</a> gem has been around for a while now, but it has been consistently broken or tailored to versions of merb that I'm not currently running.  So for the last few months we used a hacked version of new bamboo's merb_exceptions in production, and it worked pretty well until the exception refactoring that went down in merb landed in mid-august. There's a slightly more recent post on the <a href="http://merbist.com/2008/10/01/exception-handling-in-merb/">Merbist</a> about the merb_exceptions plugin being consumed into the official merb plugins repo, this is quite cool. :)
 

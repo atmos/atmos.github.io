@@ -4,7 +4,7 @@ title: Adding God to /etc/inittab on a Linux box
 ---
 
 God is watching
----------------
+===============
 
 We've been using monit at <a href="http://www.engineyard.com">Engine Yard</a>
 on thousands of machines with a great deal of success.  Sometimes it can get

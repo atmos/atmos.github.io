@@ -4,6 +4,10 @@ layout: post
 title: Merb OpenID Consumer Application based on Merb-Auth
 wordpress_url: http://atmos.org/?p=71
 ---
+
+Merb OpenID Consumer
+====================
+
 We've been playing around with [openid](http://openid.net/) this week so I figured it was worth spending some time to test
 [the latest merb 1.0 rc](http://merbist.com/2008/10/29/yet-another-rc-release-merb-10-rc3/).
 

@@ -4,6 +4,9 @@ title: SF bound and down, upcoming talks
 excerpt: I'm moving to SF!
 ---
 
+SF bound and down
+=================
+
 I'm moving again.  As much as I love Boulder, I'm moving to SF to be closer to
 [Engine Yard](http://engineyard.com).  After years of telecommuting I find
 myself wanting to work with people in person more and more.  Boulder is, and

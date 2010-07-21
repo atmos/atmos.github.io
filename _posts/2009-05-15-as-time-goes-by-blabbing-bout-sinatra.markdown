@@ -4,6 +4,10 @@ layout: post
 title: "as time goes by : blabbing 'bout sinatra"
 wordpress_url: http://atmos.org/?p=361
 ---
+
+Sinatra 0.9
+===========
+
 [Justin Smestad](http://twitter.com/jsmestad) invited me up to
 [factory labs](http://www.factorylabs.com/) to talk about
 [sinatra](http://sinatrarb.com) recently for one of their brown bag
