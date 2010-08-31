@@ -13,13 +13,13 @@ intimidating working alongside these amazing people:
 * [tom][tom]
 * [chris][chris]
 * [pj][pj]
+* [scott][scott]
 * [tekkub][tekkub]
 * [melissa][melissa]
 * [ryan][ryan]
 * [kyle][kyle]
 * [zach][zach]
 * [rick][rick]
-* [joe][joe]
 
 I use GitHub daily.  I love open source and have for about a decade.  I love
 the ecosystem that exists around sharing code for both teaching and learning.
@@ -40,3 +40,4 @@ I'm hoping that they'll keep me around for a while. :)
 [zach]: http://zachholman.com
 [rick]: http://techno-weenie.net
 [joe]: http://tumbljack.com
+[scott]: http://schacon.github.com/
