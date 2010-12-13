@@ -5,6 +5,8 @@ excerpt: Everything I Learned About Open Source Development I Learned From Indie
 ---
 
 <h1>My Aloha on Rails talk</h1>
-<a href="http://alohaonrails.hosted.panopto.com/CourseCast/Viewer/Default.aspx?id=a6229328-8edb-47b9-b7a3-e8c61ec8baa2">
-  <img src="http://farm4.static.flickr.com/3440/3988547601_8ab15ce240.jpg" alt="unfortunately the talk requires silverlight :(" />
-</a>
+<iframe src="http://player.vimeo.com/video/10877889" width="400" height="300" frameborder="0"></iframe>
+
+<p>
+  <a href="http://vimeo.com/10877889">Everything I Know About Being an Open Source Hacker I Learned From Indie Hip Hop - Corey Donohoe</a> from <a href="http://vimeo.com/alohaonrails">Aloha on Rails</a> on <a href="http://vimeo.com">Vimeo</a>.
+</p>
