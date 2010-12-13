@@ -11,13 +11,12 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font: 13.34px arial, clean, sans-serif;
   *font-size: large;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: helvetica, "terfens-1","terfens-2", arial, clean, sans-serif;
   margin: 5px 130px;
 }
 
@@ -176,11 +175,13 @@ img {
 
 /* failz */
 #archives {
-  width: 960px;
+  width: 760px;
   margin: 0 auto;
 }
 
 #archives div.post-title {
+  width: 500px;
+  margin: 0 auto 10px auto;
   border: 1px solid #000;
 }
 
@@ -189,6 +190,7 @@ img {
   text-align: left;
   margin: 4px 2px;
   padding-left: 15px;
+  vertical-align: center;
 }
 
 #archives div.post-title h2 a {
@@ -201,7 +203,7 @@ img {
 
 #archives div.post-title span {
   display: block;
-  font: 14px 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', arial, clean, sans-serif;
+  font: 16px 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', arial, clean, sans-serif;
   text-align: right;
   margin: 2px 2px;
   padding-right: 10px;
