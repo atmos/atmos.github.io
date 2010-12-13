@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Joining GitHub
+title: The Geek Talk Interview
 excerpt: Whoaaaaaaaaaaaaaaaaaaaaa
 ---
 
