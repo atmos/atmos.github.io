@@ -237,9 +237,9 @@ h3{font-size: 30px;}
 #title, h2, h3{font-weight:normal;}
 
 #title{
-	font-size: 60px;
 	color:999;
 	float:left;
+  font:60px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 header nav{
@@ -249,6 +249,7 @@ header nav{
 
 header nav ul li{
 	display:inline;
+  font:24px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 nav a {
@@ -275,7 +276,6 @@ aside{
 aside h2 {
   margin: 5px;
   color: #999;
-  text-shadow: 2px 2px 2px rgba(36, 109, 56, 0.5);
 }
 
 aside h3 {
@@ -283,7 +283,7 @@ aside h3 {
 }
 
 #main p {
-  font:22px/34px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5);
+  font:22px/34px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 	width:620px;
 }
 
@@ -297,20 +297,21 @@ article header {
 }
 
 article h1 {
-  font:48px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5);
+  font:48px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 article h2 {
-  font:40px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5);
+  font:40px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 article h3 {
-  font:32px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5);
+  font:32px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 #footer-container{
 	height:60px;
-	background-color: rgb(153, 153, 153, 0.5);
+  background-image: url("/images/xv.png);
+  background-repeat: repeat;
 	border-top:20px solid rgb(153, 153, 153);
 	margin-top:50px;
 	-webkit-box-shadow:0 -40px 40px -40px #AAA;

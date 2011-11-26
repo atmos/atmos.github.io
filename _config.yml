@@ -1,12 +1,9 @@
 destination: ./_site
-auto:        false
+auto:        true
 lsi:         false
 server_port: 4000
 pygments:    true
-markdown:    maruku
+markdown:    rdiscount
 permalink:   date
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_dir:    images/latex
-  png_url:    /images/latex
+rdiscount:
+  extensions: [smart]
