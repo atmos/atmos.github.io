@@ -212,8 +212,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 body{
-	font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
-
+  font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
+  font: Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 .wrapper{
@@ -239,7 +239,7 @@ h3{font-size: 30px;}
 #title{
 	color:999;
 	float:left;
-  font:60px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-size: 60px;
 }
 
 header nav{
@@ -249,7 +249,7 @@ header nav{
 
 header nav ul li{
 	display:inline;
-  font:20px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-size:20px;
 }
 
 nav a {
@@ -283,7 +283,7 @@ aside h3 {
 }
 
 #main p {
-  font:22px/34px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-size: 22px/34px;
 	width:620px;
 }
 
@@ -297,15 +297,15 @@ article header {
 }
 
 article h1 {
-  font:48px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-size: 48px;
 }
 
 article h2 {
-  font:40px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-size: 40px;
 }
 
 article h3 {
-  font:32px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-size: 32px;
 }
 
 article header h2 {
@@ -316,7 +316,7 @@ article header span {
   float: right;
   margin: 2px 2px 2px auto;
   padding: 2px;
-  font:16px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-size:16px;
 }
 
 #footer-container{
@@ -333,9 +333,6 @@ article header span {
 #footer-container footer{
 	color:white;
 }
-
-
-
 
 
 /* =============================================================================
