@@ -249,7 +249,7 @@ header nav{
 
 header nav ul li{
 	display:inline;
-  font:24px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font:20px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 nav a {
@@ -288,8 +288,8 @@ aside h3 {
 }
 
 article header {
-	margin-bottom:50px;
-	padding-bottom:30px;
+	margin-bottom:30px;
+	padding-bottom:22px;
 	width:700px;
 	-webkit-box-shadow:0 45px 60px -60px #AAA;
 	   -moz-box-shadow:0 45px 60px -60px #AAA;
@@ -306,6 +306,17 @@ article h2 {
 
 article h3 {
   font:32px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+}
+
+article header h2 {
+  margin: 0;
+  padding: 3px 4px;
+}
+article header span {
+  float: right;
+  margin: 2px 2px 2px auto;
+  padding: 2px;
+  font:16px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
 }
 
 #footer-container{
