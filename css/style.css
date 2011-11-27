@@ -212,8 +212,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 body{
-  font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
-  font: Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999;
+  font-family: Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, Helvetica, Helvetica Neue, Arial, serif; color: #999;
 }
 
 .wrapper{
