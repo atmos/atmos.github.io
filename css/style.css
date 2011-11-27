@@ -235,13 +235,13 @@ h2{font-size: 40px;}
 h3{font-size: 30px;}
 #title, h2, h3{font-weight:normal;}
 
-#title{
+#title {
 	color:999;
 	float:left;
   font-size: 60px;
 }
 
-header nav{
+header nav {
 	float:right;
 	margin-top:100px;
 }
@@ -258,7 +258,7 @@ nav a {
 	background-color:#999;
 }
 
-aside{
+aside {
 	color:white;
 	padding:20px;
 	float:right;
@@ -272,12 +272,25 @@ aside{
 	        box-shadow:0 0px 40px -10px #AAA;
 }
 
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 8px;
+  padding: 2px;
+}
+
+aside ul li a h3 {
+}
+
 aside h2 {
-  margin: 5px;
+  margin: 0;
+  padding: 0;
   color: #999;
+  line-height: 35px;
 }
 
 aside h3 {
+  padding: 0;
   margin: 3px;
 }
 
