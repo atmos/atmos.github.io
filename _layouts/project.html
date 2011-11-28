@@ -8,58 +8,35 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>{{ page.title }}</title>
-	<meta name="description" content="atmos.org ~ Corey Donohoe on the internet">
+
+
+  <meta name="description" content="Cinderella ~ A Simplified Mac Development Environment">
 	<meta name="author" content="Corey Donohoe">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="http://www.atmos.org/css/style.css">
 
 	<script src="/js/libs/modernizr-2.0.6.min.js"></script>
+
 </head>
+
 <body>
 	<div id="header-container">
 		<header class="wrapper">
-    <a href="/"><h1 id="title">atmos.org</h1></a>
+      <h1 id="title"><a href="/">atmos.org</a> : <a href="/cinderella">cinderella</a></h1>
 			<nav>
 				<ul>
           <li><a href="/about.html">About</a></li>
           <li><a href="/posts.html">Posts</a></li>
 				</ul>
 			</nav>
-		</header>
-	</div>
-
-	<div id="main" class="wrapper">
-    <aside>
-      <section>
-        <h2>Projects</h2>
-        <ul>
-          <li><a href="http://www.atmos.org/cinderella" target="tab"><h3>Cinderella</h3></a></li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Elsewhere</h2>
-        <ul>
-          <li><a href="http://github.com/atmos" target="tab"><h3>GitHub</h3></a></li>
-          <li><a href="http://flickr.com/photos/atmos" target="tab"><h3>Flickr</h3></a></li>
-          <li><a href="http://tumblr.atmos.org" target="tab"><h3>Tumblr</h3></a></li>
-          <li><a href="http://twitter.com/atmos" target="tab"><h3>Twitter</h3></a></li>
-        </ul>
-      </section>
-		</aside>
-
-    <section>
-    {{ content }}
-    </section>
+    </header>
   </div>
 
-	<div id="footer-container">
-		<footer class="wrapper">
-      <a href="/"><h3>atmos.org : est. 2000</h3></a>
-		</footer>
-	</div>
+  <div id="main" class="wrapper">
+    {{ content }}
+  </div>
 
   <script type="text/javascript">
     var _gauges = _gauges || [];

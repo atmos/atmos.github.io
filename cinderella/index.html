@@ -1,142 +1,86 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+---
+layout: project
+title: Cinderella ~ Open Source for Mac OSX
+---
+<aside>
+  <section>
+    <ul>
+      <li><h3><a href="http://github.com/atmos/cinderella/">Source</a></h3></li>
+      <li><h3><a href="http://rubygems.org/gems/cinderella">Rubygem</a></h3></li>
+      <li><h3><a href="http://github.com/atmos/smeagol/">Recipes</a></h3></li>
+    </ul>
+  </section>
+</aside>
 
-  <title>atmos/cinderella @ GitHub</title>
+<section>
+  <header>
+    <h1><a href="http://github.com/atmos/cinderella">cinderella</a></h1>
+    <h4>managing all your osx development needs</span>
+  </header>
+</section>
+<section>
+  <h2>What It Gives You</h2>
+  <ul>
+    <li>
+      <a href="http://dev.mysql.com">mysql</a>,
+      <a href="http://postgresql.org">postgres</a>,
+      <a href="http://code.google.com/p/redis/">redis</a>,
+      <a href="http://lucene.apache.org/solr/">solr</a>,
+      <a href="http://memcached.org/">memcached</a> and
+      <a href="http://www.mongodb.org">mongodb</a>
+    </li>
+    <li><a href="http://www.ruby-lang.org">ruby</a> (1.8.7) via <a href="https://github.com/sstephenson/rbenv">rbenv</a>.</li>
+    <li><a href="http://python.org">python</a> (2.7) with <a href="http://pypi.python.org/pypi/pip">pip</a>.</li>
+    <li><a href="http://nodejs.org">node.js</a> (0.4.11) with <a href="http://github.com/isaacs/npm">npm</a>.</li>
+    <li><a href="http://www.erlang.org/">erlang</a> (R13B04) environment.</li>
+  </ul>
+</section>
+<section>
+  <h2>Getting Started</h2>
+  <p>
+    Cinderella is a fully managed development environment for open source
+    hacking on Mac OSX.  It's powered by
+    <a href="http://mxcl.github.com/homebrew/" target="_none">homebrew</a> and
+    <a href="http://wiki.opscode.com/display/chef/Home" target="_none">chef</a>.
+    You only need
+    <a href="http://developer.apple.com/technologies/xcode.html">Xcode 4.2</a> and a
+    <a href="https://github.com/kennethreitz/osx-gcc-installer">Sane GCC</a>
+    to get started.
+  </p>
 
+  <p>
+    Cinderella builds everything up in ~/Developer.  It won't stomp on any of
+    your current installations so you don't have to commit your entire
+    machine immediately.  It's simple to rollback if you really want to.
+  </p>
+</section>
+<section>
+  <h2>Install</h2>
+  <p>
+    Just curl this URL.  If the bootstrap script needs any interaction
+    with you it will be in the first few seconds.  It might need sudo to
+    install the cinderella executable.
+  </p>
+  <p>
+    The build should take about an hour.
+  </p>
+  <pre class="terminal">% curl -L https://github.com/atmos/cinderella/raw/master/bootstrap.sh -o - | sh
+[22:06:02] INFO: Starting Chef Solo Run
+[22:34:29] INFO: Chef Run complete in 1707.521717 seconds
+%
+  </pre>
 
-  <meta name="description" content="Cinderella ~ A Simplified Mac Development Environment">
-	<meta name="author" content="Corey Donohoe">
+  <p>
+    Cinderella can manage itself from here.  Open up a new shell and you're
+    ready to hack.
+  </p>
+</section>
+<section>
+  <h2>Uninstall</h2>
+  <p>If for some reason you don't find cinderella to be amazing then you can easily uninstall it.  </p>
+  <pre class="terminal">% cinderella --uninstall </pre>
 
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <h2>Contact</h2>
+  <p>Corey Donohoe (atmos@atmos.org)<br/></p>
 
-  <link rel="stylesheet" href="http://www.atmos.org/css/style.css">
-
-	<script src="/js/libs/modernizr-2.0.6.min.js"></script>
-
-</head>
-
-<body>
-	<div id="header-container">
-		<header class="wrapper">
-      <h1 id="title"><a href="/">atmos.org</a> : <a href="/cinderella">cinderella</a></h1>
-      <a href="http://github.com/atmos/cinderella"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-			<nav>
-				<ul>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/posts.html">Archives</a></li>
-				</ul>
-			</nav>
-    </header>
-  </div>
-
-  <div id="main" class="wrapper">
-    <aside>
-      <section>
-        <ul>
-          <li><h3><a href="http://github.com/atmos/cinderella/">Source</a></h3></li>
-          <li><h3><a href="http://rubygems.org/gems/cinderella">Rubygem</a></h3></li>
-          <li><h3><a href="http://github.com/atmos/smeagol/">Recipes</a></h3></li>
-        </ul>
-      </section>
-		</aside>
-
-    <section>
-      <header>
-        <h1><a href="http://github.com/atmos/cinderella">cinderella</a></h1>
-        <h4>managing all your osx development needs</span>
-      </header>
-    </section>
-    <section>
-      <h2>What It Gives You</h2>
-      <ul>
-        <li>
-          <a href="http://dev.mysql.com">mysql</a>,
-          <a href="http://postgresql.org">postgres</a>,
-          <a href="http://code.google.com/p/redis/">redis</a>,
-          <a href="http://lucene.apache.org/solr/">solr</a>,
-          <a href="http://memcached.org/">memcached</a> and
-          <a href="http://www.mongodb.org">mongodb</a>
-        </li>
-        <li><a href="http://www.ruby-lang.org">ruby</a> (1.8.7) via <a href="https://github.com/sstephenson/rbenv">rbenv</a>.</li>
-        <li><a href="http://python.org">python</a> (2.7) with <a href="http://pypi.python.org/pypi/pip">pip</a>.</li>
-        <li><a href="http://nodejs.org">node.js</a> (0.4.11) with <a href="http://github.com/isaacs/npm">npm</a>.</li>
-        <li><a href="http://www.erlang.org/">erlang</a> (R13B04) environment.</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Getting Started</h2>
-      <p>
-        Cinderella is a fully managed development environment for open source
-        hacking on Mac OSX.  It's powered by
-        <a href="http://mxcl.github.com/homebrew/" target="_none">homebrew</a> and
-        <a href="http://wiki.opscode.com/display/chef/Home" target="_none">chef</a>.
-        You only need
-        <a href="http://developer.apple.com/technologies/xcode.html">Xcode 4.2</a> and a
-        <a href="https://github.com/kennethreitz/osx-gcc-installer">Sane GCC</a>
-        to get started.
-      </p>
-
-      <p>
-        Cinderella builds everything up in ~/Developer.  It won't stomp on any of
-        your current installations so you don't have to commit your entire
-        machine immediately.  It's simple to rollback if you really want to.
-      </p>
-    </section>
-    <section>
-      <h2>Install</h2>
-      <p>
-        Just curl this URL.  If the bootstrap script needs any interaction
-        with you it will be in the first few seconds.  It might need sudo to
-        install the cinderella executable.
-      </p>
-      <p>
-        The build should take about an hour.
-      </p>
-      <pre class="terminal">% curl -L https://github.com/atmos/cinderella/raw/master/bootstrap.sh -o - | sh
-  [22:06:02] INFO: Starting Chef Solo Run
-  [22:34:29] INFO: Chef Run complete in 1707.521717 seconds
-  %
-      </pre>
-
-      <p>
-        Cinderella can manage itself from here.  Open up a new shell and you're
-        ready to hack.
-      </p>
-    </section>
-    <section>
-      <h2>Uninstall</h2>
-      <p>If for some reason you don't find cinderella to be amazing then you can easily uninstall it.  </p>
-      <pre class="terminal">% cinderella --uninstall </pre>
-
-      <h2>Contact</h2>
-      <p>Corey Donohoe (atmos@atmos.org)<br/></p>
-
-      <div>
-        get the source code on GitHub : <a href="http://github.com/atmos/cinderella">atmos/cinderella</a>
-      </div>
-    </section>
-  </div>
-
-  <script type="text/javascript">
-    var _gauges = _gauges || [];
-    (function() {
-     var t   = document.createElement('script');
-     t.type  = 'text/javascript';
-     t.async = true;
-     t.id    = 'gauges-tracker';
-     t.setAttribute('data-site-id', '4eb74c9f613f5d3567000004');
-     t.src = '//secure.gaug.es/track.js';
-     var s = document.getElementsByTagName('script')[0];
-     s.parentNode.insertBefore(t, s);
-     })();
-   </script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-</body>
-</html>
+  </section>
