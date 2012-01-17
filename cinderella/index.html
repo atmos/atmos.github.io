@@ -14,7 +14,6 @@ title: Cinderella ~ Open Source for Mac OSX
 
 <section>
   <header>
-    <h1><a href="http://github.com/atmos/cinderella">cinderella</a></h1>
     <h4>managing all your osx development needs</span>
   </header>
 </section>
@@ -31,7 +30,7 @@ title: Cinderella ~ Open Source for Mac OSX
     </li>
     <li><a href="http://www.ruby-lang.org">ruby</a> (1.8.7) via <a href="https://github.com/sstephenson/rbenv">rbenv</a>.</li>
     <li><a href="http://python.org">python</a> (2.7) with <a href="http://pypi.python.org/pypi/pip">pip</a>.</li>
-    <li><a href="http://nodejs.org">node.js</a> (0.4.11) with <a href="http://github.com/isaacs/npm">npm</a>.</li>
+    <li><a href="http://nodejs.org">node.js</a> (0.6.1) with <a href="http://github.com/isaacs/npm">npm</a>.</li>
     <li><a href="http://www.erlang.org/">erlang</a> (R13B04) environment.</li>
   </ul>
 </section>
@@ -57,17 +56,10 @@ title: Cinderella ~ Open Source for Mac OSX
 <section>
   <h2>Install</h2>
   <p>
-    Just curl this URL.  If the bootstrap script needs any interaction
-    with you it will be in the first few seconds.  It might need sudo to
-    install the cinderella executable.
+    Cinderella has a binary installer, if you're on Lion then you're ready to go
   </p>
-  <p>
-    The build should take about an hour.
-  </p>
-  <pre class="terminal">% curl -L https://github.com/atmos/cinderella/raw/master/bootstrap.sh -o - | sh
-[22:06:02] INFO: Starting Chef Solo Run
-[22:34:29] INFO: Chef Run complete in 1707.521717 seconds
-%
+  <pre class="terminal">% sudo /usr/bin/gem install cinderella
+% /usr/bin/cinderella -b
   </pre>
 
   <p>
@@ -83,4 +75,4 @@ title: Cinderella ~ Open Source for Mac OSX
   <h2>Contact</h2>
   <p>Corey Donohoe (atmos@atmos.org)<br/></p>
 
-  </section>
+</section>
