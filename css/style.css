@@ -51,7 +51,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 a { color: rgb(0,0,0); text-decoration:none; }
 a:focus { outline: thin dotted; }
-a:hover { color: rgb(96, 73, 141); }
+a:hover { color: #999; }
 
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active { outline: 0; }
