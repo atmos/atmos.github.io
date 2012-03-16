@@ -6,26 +6,35 @@
     <title>{{ title }}</title>
 
     <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
+    <style>
+      header { zoom: 1.2; }
+      header h1 a { color: #494949; font-weight: bold; }
+      header h3 { margin-top: 20px; margin-bottom: 5px; }
+      header p.view { margin-bottom: 5px; }
+      header p.view small { padding-top: 2px; }
+      header ul { margin-top: 15px; }
+      footer { bottom: 10px; }
+    </style>
     <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>atmos.org</h1>
-        <!-- <p><p> -->
-        <p>Elsewhere</p>
+        <h1><a href="/">atmos.org</a></h1>
+        <p>I'm a programmer in San Francisco.<p>
+        
+        <h3>The Goods</h3>
+        <p class="view"><a href="/posts.html">Thoughts<small>Where I Used to Write Things</small></a></p>
+        <p class="view"><a href="/projects.html">Open Source Projects<small>Code that Might be Useful to You</small></a></p>
+
+        <h3>Elsewhere</h3>
         <p class="view"><a href="https://github.com/atmos" target="tab">GitHub<small>Where I Code &amp; Work</small></a></p>
         <p class="view"><a href="https://twitter.com/atmos" target="tab">Twitter<small>Where I Share Randomness</small></a></p>
         <p class="view"><a href="http://tumblr.atmos.org" target="tab">Tumblr<small>Where I Share Everything Else</small></a></p>
-        <p class="view"><a href="/posts.html" target="tab">Thoughts<small>Where I Used to Write Things</small></a></p>
-        <p class="view"><a href="/projects.html" target="tab">Open Source Projects<small>Code that Might be Useful to You</small></a></p>
         
-        {% if page.repository_url != '' %}
+        {% if page.repository_url %}
           <ul>
-            {% if page.code_url %}
-              <li><a href="http://{{ page.code_url }}">Source <strong>URL</strong></a></li>
-            {% endif %}
             {% if page.zip_url %}
               <li><a href="http://{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
             {% endif %}
@@ -35,19 +44,19 @@
             {% if page.gem_url %}
               <li><a href="http://{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
             {% endif %}
-            <li><a href="http://{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
+            {% if page.repository_url %}
+              <li><a href="http://{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
+            {% endif %}
           </ul>
         {% endif %}
       </header>
       <section>
         {{ content }}
       </section>
-      <!--
       <footer>
         <p>This is the site of Corey Donohoe</p>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
-      -->
     </div>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
   </body>
