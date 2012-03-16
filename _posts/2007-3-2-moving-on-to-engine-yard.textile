@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: Moving on ... to Engine Yard
 ---
 I'm happy to report that I'm going to start working with the good folks at "Engine Yard":http://engineyard.com/ in 2 weeks.  I'll basically be trying to lighten the load that "Ezra":http://brainspl.at has been bearing by himself and learning all about how they're doing things over there.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Geek Talk Interview
 excerpt: Whoaaaaaaaaaaaaaaaaaaaaa
 ---

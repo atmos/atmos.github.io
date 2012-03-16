@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: On Leaving Engine Yard
 excerpt: Why I'm leaving, What I'm Doing
 ---

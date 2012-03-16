@@ -1,6 +1,6 @@
 --- 
 wordpress_id: 33
-layout: post
+layout: default
 title: Link to Unimplemented
 wordpress_url: http://atmos.org/?p=33
 ---

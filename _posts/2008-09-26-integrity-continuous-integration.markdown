@@ -1,6 +1,6 @@
 --- 
 wordpress_id: 9
-layout: post
+layout: default
 title: "Integrity : Continuous Integration"
 ---
 <h1>What's it all about?</h1>

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: Considerations for Creating a Test Driven Ruby Project
 ---
 Creating a TDD Ruby Project

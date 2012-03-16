@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: I can has ... wolf dog?
 ---
 After getting [denali][denaliset]

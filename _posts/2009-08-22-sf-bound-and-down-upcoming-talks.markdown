@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: SF bound and down, upcoming talks
 excerpt: I'm moving to SF!
 ---

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: Adding God to /etc/inittab on a Linux box
 ---
 

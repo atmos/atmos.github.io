@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: Merb Exception Notification with HopToad
 ---
 

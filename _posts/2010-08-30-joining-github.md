@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Joining GitHub
 excerpt: Whoaaaaaaaaaaaaaaaaaaaaa
 ---

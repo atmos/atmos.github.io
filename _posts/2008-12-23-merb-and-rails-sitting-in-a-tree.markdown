@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: Merb and Rails Sitting in a Tree
 ---
 Rails and Merb Merge

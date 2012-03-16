@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: Moving at the Speed of Life
 ---
 The last few weeks at "Engine Yard":http://engineyard.com have been fucking insane, seriously.  I can't remember the last time I was this stressed and tired regularly.  Come to think of it, the last time I was this tired and stressed was the last time I was a systems admin.  I'm learning a bunch of new things, I'm holding lots of developers hands while they get their apps out to the world, and I'm constantly amazed by my coworkers knowledge.  I miss hacking terribly right now.  When I do finally pull myself away from work, I'm usually trying to get as far away from the computer as possible.  Despite the stress, exhaustion, and lack of programming time, life is beautiful right now.  I'm extremely happy with my life right now, that's not something I could say a year or two ago. :D

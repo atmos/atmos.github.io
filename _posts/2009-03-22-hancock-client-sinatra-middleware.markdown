@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: default
 title: "Hancock-Client : Sinatra Middleware"
 ---
 
