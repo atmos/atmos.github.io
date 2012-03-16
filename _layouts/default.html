@@ -14,7 +14,7 @@
       header p.view { margin-bottom: 5px; }
       header p.view small { padding-top: 2px; }
       header ul {
-        zoom: 0.75;
+        zoom: 0.85;
         margin-top: 25px;
       }
       section h1 { margin-bottom: 5px; }
@@ -33,15 +33,11 @@
         <!-- <h3>The Goods</h3> -->
         <p class="view"><a href="/posts.html">Thoughts<small>Where I Used to Write Things</small></a></p>
         <p class="view"><a href="/projects.html">Open Source Projects<small>Code that Might be Useful to You</small></a></p>
+        <p class="view"><a href="/speaking.html">Talks I've Given<small>Code that Might be Useful to You</small></a></p>
+        <p class="view"><a href="http://flickr.com/photos/atmos" target="tab">Photographs<small>From the SLR to my iPhone</small></a></p>
 
-        <h3>Elsewhere</h3>
-        <p class="view"><a href="https://github.com/atmos" target="tab">GitHub<small>Where I Code &amp; Work</small></a></p>
-        <p class="view"><a href="https://twitter.com/atmos" target="tab">Twitter<small>Where I Share Randomness</small></a></p>
-        <p class="view"><a href="https://facebook.com/corey.donohoe" target="tab">Facebook<small>If you really do know me</small></a></p>
-        <p class="view"><a href="http://tumblr.atmos.org" target="tab">Tumblr<small>Where I Share Everything Else</small></a></p>
-
-        {% if page.repository_url %}
-          <ul>
+        <ul>
+          {% if page.repository_url %}
             {% if page.zip_url %}
               <li><a href="http://{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
             {% endif %}
@@ -54,8 +50,12 @@
             {% if page.repository_url %}
               <li><a href="http://{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
             {% endif %}
-          </ul>
-        {% endif %}
+          {% else %}
+            <li><a href="https://github.com/atmos" target="tab">Code On <strong>GitHub</strong></a></li>
+            <li><a href="https://twitter.com/atmos" target="tab">Follow me on <strong>Twitter</strong></a></li>
+            <li><a href="http://tumblr.atmos.org" target="tab">Follow me on <strong>Tumblr</strong></a></li>
+          {% endif %}
+        </ul>
       </header>
       <section>
         {{ content }}
