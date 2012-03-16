@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: My talk from Red Dirt Ruby Conf - Rise of Devops
 excerpt: A Short talk on the devops "movement"
 ---

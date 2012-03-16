@@ -1,6 +1,6 @@
 --- 
 wordpress_id: 361
-layout: default
+layout: post
 title: "as time goes by : blabbing 'bout sinatra"
 wordpress_url: http://atmos.org/?p=361
 ---

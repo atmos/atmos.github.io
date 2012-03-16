@@ -1,6 +1,6 @@
 --- 
 wordpress_id: 71
-layout: default
+layout: post
 title: Merb OpenID Consumer Application based on Merb-Auth
 wordpress_url: http://atmos.org/?p=71
 ---

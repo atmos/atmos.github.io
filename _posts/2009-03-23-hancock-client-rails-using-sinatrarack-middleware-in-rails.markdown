@@ -1,5 +1,5 @@
 --- 
-layout: default
+layout: post
 title: "Hancock-Client-Rails : Using Sinatra/Rack Middleware in Rails"
 ---
 

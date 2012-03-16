@@ -1,5 +1,5 @@
 --- 
-layout: default
+layout: post
 title: My talk from Aloha On Rails
 excerpt: Everything I Learned About Open Source Development I Learned From Indie Hip Hop
 ---

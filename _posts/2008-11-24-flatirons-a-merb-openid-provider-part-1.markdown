@@ -1,6 +1,6 @@
 --- 
 wordpress_id: 80
-layout: default
+layout: post
 title: "Flatirons : A Merb OpenID Provider Part 1"
 wordpress_url: http://atmos.org/?p=80
 ---

@@ -1,6 +1,6 @@
 --- 
 wordpress_id: 144
-layout: default
+layout: post
 title: Merb 1.0 Controller Testing
 wordpress_url: http://atmos.org/?p=144
 ---

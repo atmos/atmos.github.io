@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Constantly Shipping Refactorings
 excerpt: Unicorn and Zero Downtime Migrations with DataMapper
 ---

@@ -1,5 +1,5 @@
 --- 
-layout: default
+layout: post
 title: Logrotate and Mongrel
 ---
 If you've been around webservers for a number of years you've inevitably run into "logrotate":http://www.linuxcommand.org/man_pages/logrotate8.html at some point.  You set a tiny config file up and daily, weekly or monthly your logs get rotated out, compressed and optionally moved elsewhere for archiving.  It's pretty cool when your logs get chomped out into easily identifiable chunks.   You can think "I need the logs from 2 days ago" and you won't have to go sifting through *all* of last week's logs in order to get to them.  Mongrel really isn't any different than any other webserver most people have dealt with, but logrotate and mongrel seems to be lacking proper documentation around the web.  

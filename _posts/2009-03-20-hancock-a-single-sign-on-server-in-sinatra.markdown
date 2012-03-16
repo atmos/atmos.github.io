@@ -1,5 +1,5 @@
 --- 
-layout: default
+layout: post
 title: "Hancock : A Single Sign On Server in Sinatra"
 ---
 

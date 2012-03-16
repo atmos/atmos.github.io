@@ -1,5 +1,5 @@
 --- 
-layout: default
+layout: post
 title: Phone Upgrade
 ---
 About a month ago my Blackberry 7290 quit getting reliable reception.  I'd *never* had any problems with the phone up until then and even when I was visiting Atlanta it wouldn't let me talk more than 45 seconds or so without dropping calls.  I took it into Cingular and they tried to get me to renew my service and get a more modern blackberry.  While the phone made a lot of sense while I was at GE, I really didn't need a wallet phone anymore.  So I went looking on ebay...  
