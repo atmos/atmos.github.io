@@ -13,7 +13,10 @@
       header h3 { margin-top: 20px; margin-bottom: 5px; }
       header p.view { margin-bottom: 5px; }
       header p.view small { padding-top: 2px; }
-      header ul { margin-top: 15px; }
+      header ul {
+        zoom: 0.75;
+        margin-top: 25px;
+      }
       section h1 { margin-bottom: 5px; }
       footer { bottom: 20px; }
       footer p { margin-bottom: 5px; }
@@ -26,7 +29,7 @@
       <header>
         <h1><a href="/">atmos.org</a></h1>
         <!-- <p>Where's Corey now?</p> -->
-        
+
         <!-- <h3>The Goods</h3> -->
         <p class="view"><a href="/posts.html">Thoughts<small>Where I Used to Write Things</small></a></p>
         <p class="view"><a href="/projects.html">Open Source Projects<small>Code that Might be Useful to You</small></a></p>
@@ -36,7 +39,7 @@
         <p class="view"><a href="https://twitter.com/atmos" target="tab">Twitter<small>Where I Share Randomness</small></a></p>
         <p class="view"><a href="https://facebook.com/corey.donohoe" target="tab">Facebook<small>If you really do know me</small></a></p>
         <p class="view"><a href="http://tumblr.atmos.org" target="tab">Tumblr<small>Where I Share Everything Else</small></a></p>
-        
+
         {% if page.repository_url %}
           <ul>
             {% if page.zip_url %}

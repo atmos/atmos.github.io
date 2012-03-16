@@ -15,8 +15,10 @@ repository_url: http://github.com/atmos/cinderella/
     <a href="http://postgresql.org">postgres</a>,
     <a href="http://code.google.com/p/redis/">redis</a>,
     <a href="http://lucene.apache.org/solr/">solr</a>,
-    <a href="http://memcached.org/">memcached</a> and
-    <a href="http://www.mongodb.org">mongodb</a>
+    <a href="http://memcached.org/">memcached</a>,
+    <a href="http://www.mongodb.org">mongodb</a>,
+    <a href="http://basho.com/products/riak-overview/">Riak</a>, and
+    <a href="http://www.elasticsearch.org/">Elastic Search</a>
   </li>
   <li><a href="http://www.ruby-lang.org">ruby</a> (1.8.7) via <a href="https://github.com/sstephenson/rbenv">rbenv</a>.</li>
   <li><a href="http://python.org">python</a> (2.7) with <a href="http://pypi.python.org/pypi/pip">pip</a>.</li>
@@ -31,23 +33,22 @@ repository_url: http://github.com/atmos/cinderella/
   <a href="http://mxcl.github.com/homebrew/" target="_none">homebrew</a> and
   <a href="http://wiki.opscode.com/display/chef/Home" target="_none">chef</a>.
   You only need
-  <a href="http://developer.apple.com/technologies/xcode.html">Xcode 4.2</a> and a
-  <a href="https://github.com/kennethreitz/osx-gcc-installer">Sane GCC</a>
+  <a href="http://developer.apple.com/technologies/xcode.html">Xcode 4.3 Standalone CLI Tools</a>.
   to get started.
 </p>
 
 <p>
-  Cinderella builds everything up in ~/Developer.  It won't stomp on any of
-  your current installations so you don't have to commit your entire
+  Cinderella builds everything up in ~/Developer by default.  It won't stomp on
+  any of your current installations so you don't have to commit your entire
   machine immediately.  It's simple to rollback if you really want to.
 </p>
 
 <h2>Install</h2>
 <p>
-  Cinderella has a binary installer, if you're on Lion then you're ready to go
+  Open up a terminal and run the following commands.
 </p>
 <pre class="terminal">% sudo /usr/bin/gem install cinderella
-% /usr/bin/cinderella -b
+% /usr/bin/cinderella
 </pre>
 
 <p>
