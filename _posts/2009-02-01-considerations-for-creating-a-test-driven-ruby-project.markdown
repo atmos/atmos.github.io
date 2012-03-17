@@ -1,9 +1,7 @@
 --- 
 layout: post
-title: Considerations for Creating a Test Driven Ruby Project
+title: Creating a TDD Ruby Project
 ---
-Creating a TDD Ruby Project
-===========================
 
 Where this comes from
 ---------------------

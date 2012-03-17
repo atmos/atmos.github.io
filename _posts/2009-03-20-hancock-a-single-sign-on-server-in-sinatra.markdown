@@ -3,9 +3,6 @@ layout: post
 title: "Hancock : A Single Sign On Server in Sinatra"
 ---
 
-Hancock: SSO
-============
-
 A while back I blogged about the <a href="http://github.com/atmos/flatirons">flatirons</a> <a href="http://openid.net">openid</a> provider and how it was inspired by something we were doing at Engine Yard.  We needed a single sign on provider and chose to use OpenID as the sso protocol.  Since this is heavily influenced by openid I will often use the word "<strong>provider</strong>" to describe an SSO server.  I also use the word "<strong>consumer</strong>" to describe an SSO enabled application.
 
 So we pretty much drew up a diagram of how openid works and removed the steps we felt were unnecessary(decision/acceptance steps).  We then extended it by adding auto discovery of the openid url.  Here's a somewhat up to date diagram that shows off how things work.  You'll notice that the user-agent(browser) never specifies its identity url, it's automatically provided from the SSO server. 

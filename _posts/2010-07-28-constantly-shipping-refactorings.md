@@ -4,9 +4,6 @@ title: Constantly Shipping Refactorings
 excerpt: Unicorn and Zero Downtime Migrations with DataMapper
 ---
 
-Constantly Shipping Refactorings
-================================
-
 Recently, two of my favorite hackers, [Martin] and [Tim], have been working on a
 pretty big refactoring in cloud.  In the past our team probably would've
 worked in a topic branch for a few weeks, followed by a painful

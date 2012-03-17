@@ -4,9 +4,6 @@ title: Joining GitHub
 excerpt: Whoaaaaaaaaaaaaaaaaaaaaa
 ---
 
-Joining GitHub
-==============
-
 Today is my first day at [GitHub][github].  I'm not gonna lie, it's a little
 intimidating working alongside these amazing people:
 
