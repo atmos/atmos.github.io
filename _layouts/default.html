@@ -17,7 +17,9 @@
         zoom: 0.7;
         margin-top: 25px;
       }
+      section p { margin-top: 10px; }
       section h1 { margin-bottom: 15px; }
+      section h2 { margin-bottom: 10px; }
       section h2 { margin-bottom: 10px; }
       footer { bottom: 20px; }
       footer p { margin-bottom: 5px; }
@@ -40,16 +42,19 @@
           <h3>Project Info</h3>
           <ul>
             {% if page.zip_url %}
-              <li><a href="http://{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
+              <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
             {% endif %}
             {% if page.tar_url %}
-              <li><a href="http://{{ page.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+              <li><a href="{{ page.tar_url }}">Download <strong>TAR Ball</strong></a></li>
             {% endif %}
             {% if page.gem_url %}
-              <li><a href="http://{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
+              <li><a href="{{ page.gem_url }}">Download <strong>Rubygem</strong></a></li>
+            {% endif %}
+            {% if page.issue_url %}
+              <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
             {% endif %}
             {% if page.repository_url %}
-              <li><a href="http://{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
+              <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
             {% endif %}
           </ul>
         {% endif %}
