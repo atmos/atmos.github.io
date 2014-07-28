@@ -9,6 +9,8 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 
 On GitHub everything revolves around repositories. In a lot of cases these repositories are hosts to applications. If you subscribe to [the idea](https://guides.github.com/introduction/flow/) that the default branch of your application should always be deployable then auto-deployment will hopefully save you some time.
 
+<img src="https://cloud.githubusercontent.com/assets/38/3716020/4a148cc0-15fe-11e4-9c5d-9658e18489cb.png" alt="auto deployment ui" />
+
 ### Auto-Deployment Behaviors
 
 * Push changes to the application when the default branch is pushed to.
@@ -41,13 +43,9 @@ The easiest way to configure auto-deployment is via Hubot. You can configure thi
 
 ## Deploy on Push
 
-<img src="https://cloud.githubusercontent.com/assets/704696/3698478/df9d14ee-13c2-11e4-9f76-7b5a0da624da.jpg" alt="service list" />
-
 Upon receiving a push to the default branch, GitHub emits a deployment event for that sha. This is great for workflows like "push to heroku" to see your changes live in 30-60 seconds.
 
 ## Deploy on Commit Status
-
-<img src="https://cloud.githubusercontent.com/assets/704696/3698492/3942dc04-13c3-11e4-9737-f2b69b5f49bb.jpg" alt="auto deployment ui" />
 
 Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the commit status is successful.
 
