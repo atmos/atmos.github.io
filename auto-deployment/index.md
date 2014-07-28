@@ -7,13 +7,11 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 # GitHub Auto-Deployment
 <hr/>
 
-The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate deployment workflows. This helps implement one portion of [GitHub Flow](https://guides.github.com/introduction/flow/).
+GitHub Auto-Deployment is a workflow service for software teams deploying applications.  It uses simple interactions around git usage to decide when code changes to your application should be deployed. It's hosted and run as a GitHub service.
 
-It uses simple interactions around git to decide when code changes to your application should be deployed.
+[![GitHub Flow](https://cloud.githubusercontent.com/assets/38/3716148/60484298-1603-11e4-8f30-30a381f5c89d.jpg)](https://guides.github.com/introduction/flow/)
 
-<img src="https://cloud.githubusercontent.com/assets/38/3716148/60484298-1603-11e4-8f30-30a381f5c89d.jpg" alt="github flow" />
-
-There's three distinct behaviors around auto-deployment. They work like this:
+There's three different types of auto-deployment behavior, deploy on push, deploy on status, and continuously deploying topic branches. They work like this:
 
 ### Deploy on Push
 
