@@ -9,19 +9,47 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 
 The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate deployment workflows. This helps implement one portion of [GitHub Flow](https://guides.github.com/introduction/flow/).
 
-### Auto-Deployment Behaviors
+## Auto-Deployment Behaviors
 
 * Push changes to the application when the default branch is pushed to.
 * Push changes to the application when the default branch passes ci tests.
 * Continuously push branch deploys when new commits are added and tests pass.
 
-## Deploy on Push
+### Deploy on Push
 
 Upon receiving a push to the default branch, GitHub emits a deployment event for that sha. This is great for workflows like "push to heroku" to see your changes live in 30-60 seconds.
 
-## Deploy on Commit Status
+Example:
+
+* You run `git push origin master`
+* GitHub creates a deployment for your push
+* The HerokuBeta service picks up the deployment and pushes your master branch out.
+
+### Deploy on Commit Status
 
 Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the commit status is successful.
+
+Example:
+
+* You run `git push origin master`
+* GitHub dispatches a push event to your CI system.
+* Your CI system calls back to GitHub stating that the commit passed tests.
+* GitHub creates a deployment for your successful commit status.
+* The HerokuBeta service picks up the deployment and pushes your master branch out.
+
+### Branch based continuous deployment
+
+<em>This is currently unimplemented</em>
+
+Example:
+
+* You deploy a non-default branch from chat `/deploy myapp/mybranch`.
+* The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
+* You add commits and push to the 'mybranch' branch.
+* GitHub dispatches a push event to your CI system.
+* Your CI system calls back to GitHub stating that the commit passed tests.
+* GitHub creates a deployment for your successful commit status on the deployed branch.
+* The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
 
 ## Options
 
@@ -36,7 +64,7 @@ Right now there's only two easy ways to deploy. You can use [heaven](https://git
 
 ### Configuration
 
-| Attributes       |                                                 |
+| Attributes       | Description                                     |
 |------------------|-------------------------------------------------|
 | github_token     | A GitHub [personal oauth token]() with `repo:deployment` scope |
 | environments     | A comma delimited list of environments to deploy to automatically. |
