@@ -9,11 +9,7 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 
 The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate deployment workflows. This helps implement one portion of [GitHub Flow](https://guides.github.com/introduction/flow/).
 
-## Auto-Deployment Behaviors
-
-* Push changes to the application when the default branch is pushed to.
-* Push changes to the application when the default branch passes ci tests.
-* Continuously push branch deploys when new commits are added and tests pass.
+There's three distinct behaviors around auto-deployment. They work like this:
 
 ### Deploy on Push
 
