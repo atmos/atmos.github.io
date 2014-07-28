@@ -19,11 +19,11 @@ Upon receiving a push to the default branch, GitHub emits a deployment event for
 
 <h2>Deploy on Commit Status</h2>
 
-Upon receiving a commit status to the default branch, GitHub emits a deployment event if the build was successful. <b>This still needs to be implemented.</b>
+Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the build was successful.
 
 <h2>Chat Configuration</h2>
 
-You can configure things on a per-repo basis via chat with the [hubot-auto-deploy](https://github.com/atmos/hubot-auto-deploy) script.
+You can configure things on a per-repo basis via chat with the [hubot-auto-deploy](https://github.com/atmos/hubot-auto-deploy) script. This saves you from having to constantly look up a GitHub API token. Hubot will configure the auto-deploy integration for you from chat.
 
 <h2>Deployment</h2>
 
