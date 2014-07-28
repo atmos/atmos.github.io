@@ -11,11 +11,11 @@ GitHub Auto-Deployment is a workflow service for software teams deploying applic
 
 [![GitHub Flow](https://cloud.githubusercontent.com/assets/38/3716148/60484298-1603-11e4-8f30-30a381f5c89d.jpg)](https://guides.github.com/introduction/flow/)
 
-There's three different types of auto-deployment behavior, deploy on push, deploy on status, and continuously deploying topic branches. They work like this:
+There's two different types of auto-deployment behavior, deploy on push and deploy on status. They work like this:
 
 ### Deploy on Push
 
-Upon receiving a push to the default branch, GitHub emits a deployment event for that sha. This is great for workflows like "push to heroku" to see your changes live in 30-60 seconds.
+Upon receiving a push to the default branch, GitHub emits a deployment event for that sha. This is great for workflows where you push to GitHub and see changes on heroku in 30-60 seconds.
 
 Example:
 
@@ -34,20 +34,6 @@ Example:
 * Your CI system calls back to GitHub stating that the commit passed tests.
 * GitHub creates a deployment for your successful commit status.
 * The HerokuBeta service picks up the deployment and pushes your master branch out.
-
-### Branch based continuous deployment
-
-<em>This is currently unimplemented</em>
-
-Example:
-
-* You deploy a non-default branch from chat `/deploy myapp/mybranch`.
-* The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
-* You add commits and push to the 'mybranch' branch.
-* GitHub dispatches a push event to your CI system.
-* Your CI system calls back to GitHub stating that the commit passed tests.
-* GitHub creates a deployment for your successful commit status on the deployed branch.
-* The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
 
 ## Setup
 
@@ -80,3 +66,17 @@ The easiest way to configure auto-deployment is via Hubot. You can configure thi
 * More real-world testing.
 * Support for status_contexts and multi-commit status aware.
 * Support for continuous-deployment on branch deploys.
+
+### Branch based continuous deployment
+
+<em>Desired, but currently unimplemented</em>
+
+Example:
+
+* You deploy a non-default branch from chat `/deploy myapp/mybranch`.
+* The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
+* You add commits and push to the 'mybranch' branch.
+* GitHub dispatches a push event to your CI system.
+* Your CI system calls back to GitHub stating that the commit passed tests.
+* GitHub creates a deployment for your successful commit status on the deployed branch.
+* The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
