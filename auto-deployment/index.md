@@ -7,14 +7,25 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 # GitHub Auto-Deployment
 <hr/>
 
-The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate workflows regardless of how you're getting your code out to update your applications. This decouples the workflows from the act of delivering the code and gives you [GitHub Flow](https://guides.github.com/introduction/flow/). This comes with a few expected behaviors.
-
+The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate deployment workflows. This helps implement one portion of [GitHub Flow](https://guides.github.com/introduction/flow/).
 
 ### Auto-Deployment Behaviors
 
 * Push changes to the application when the default branch is pushed to.
 * Push changes to the application when the default branch passes ci tests.
 * Continuously push branch deploys when new commits are added and tests pass.
+
+## Deploy on Push
+
+Upon receiving a push to the default branch, GitHub emits a deployment event for that sha. This is great for workflows like "push to heroku" to see your changes live in 30-60 seconds.
+
+## Deploy on Commit Status
+
+Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the commit status is successful.
+
+## Options
+
+GitHub will handle creating the Deployments via the API, but you will still need to configure a system that does the actual deployment for you.
 
 ### Supported Deployment Systems
 
@@ -37,14 +48,6 @@ These values are all available in your repository's admin settings under the Web
 ### Chat Configuration
 
 The easiest way to configure auto-deployment is via Hubot. You can configure things on a per-repo basis via hubot with the [hubot-auto-deploy](https://github.com/atmos/hubot-auto-deploy) script. This saves you from having to do things like look up a GitHub API token or remember the exact syntax.
-
-## Deploy on Push
-
-Upon receiving a push to the default branch, GitHub emits a deployment event for that sha. This is great for workflows like "push to heroku" to see your changes live in 30-60 seconds.
-
-## Deploy on Commit Status
-
-Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the commit status is successful.
 
 ## TODO
 
