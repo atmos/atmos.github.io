@@ -9,6 +9,8 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 
 The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate deployment workflows. This helps implement one portion of [GitHub Flow](https://guides.github.com/introduction/flow/).
 
+It uses simple interactions around git to decide when code changes to your application should be deployed.
+
 <img src="https://cloud.githubusercontent.com/assets/38/3716148/60484298-1603-11e4-8f30-30a381f5c89d.jpg" alt="github flow" />
 
 There's three distinct behaviors around auto-deployment. They work like this:
@@ -49,9 +51,11 @@ Example:
 * GitHub creates a deployment for your successful commit status on the deployed branch.
 * The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
 
-## Options
+## Setup
 
-GitHub will handle creating the Deployments via the API, but you will still need to configure a system that does the actual deployment for you.
+Auto-Deployment is available as a [github service](https://github.com/github/github-services) and is configured in your repository's admin settings under the Webhooks & Services section.
+
+GitHub will handle creating Deployments via the API, but you will still need to configure a system that does the actual deployment for you.
 
 ### Supported Deployment Systems
 
@@ -68,8 +72,6 @@ Right now there's only two easy ways to deploy. You can use [heaven](https://git
 | environments     | A comma delimited list of environments to deploy to automatically. |
 | push_on_status   | When set to `1` deployments are only created on successful commit statuses. |
 | status_contexts  | A comma delimimted list of commit status context names to verify against.<b>Unimplemented</b>|
-
-These values are all available in your repository's admin settings under the Webhooks & Services section.
 
 ### Chat Configuration
 
