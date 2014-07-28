@@ -11,7 +11,9 @@ GitHub Auto-Deployment is a workflow service for software teams deploying applic
 
 [![GitHub Flow](https://cloud.githubusercontent.com/assets/38/3716148/60484298-1603-11e4-8f30-30a381f5c89d.jpg)](https://guides.github.com/introduction/flow/)
 
-There's two different types of auto-deployment behavior, deploy on push and deploy on status. They work like this:
+## Behaviors
+
+There's two different types of auto-deployment behavior:
 
 ### Deploy on Push
 
