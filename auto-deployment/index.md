@@ -7,17 +7,14 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 # GitHub Auto-Deployment
 <hr/>
 
-On GitHub everything revolves around repositories. In a lot of cases these repositories are hosts to applications. If you subscribe to [the idea](https://guides.github.com/introduction/flow/) that the default branch of your application should always be deployable then auto-deployment will hopefully save you some time.
+The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate workflows regardless of how you're getting your code out to update your applications. This decouples the workflows from the act of delivering the code and gives you [GitHub Flow](https://guides.github.com/introduction/flow/). This comes with a few expected behaviors.
 
-<img src="https://cloud.githubusercontent.com/assets/38/3716020/4a148cc0-15fe-11e4-9c5d-9658e18489cb.png" alt="auto deployment ui" />
 
 ### Auto-Deployment Behaviors
 
 * Push changes to the application when the default branch is pushed to.
 * Push changes to the application when the default branch passes ci tests.
 * Continuously push branch deploys when new commits are added and tests pass.
-
-The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate workflows regardless of how you're getting your code out to update your applications. This decouples the workflows from the act of delivering the code.
 
 ### Supported Deployment Systems
 
