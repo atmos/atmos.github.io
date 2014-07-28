@@ -7,7 +7,7 @@ repository_url: http://github.com/atmos/hubot-auto-deploy
 # GitHub Auto-Deployment
 <hr/>
 
-On GitHub everything revolves around repositories. In a lot of cases these repositories are hosts to applications. If you subscribe to the idea that the default branch of your application should always be deployable then auto-deployment will hopefully save you some time.
+On GitHub everything revolves around repositories. In a lot of cases these repositories are hosts to applications. If you subscribe to [the idea](https://guides.github.com/introduction/flow/) that the default branch of your application should always be deployable then auto-deployment will hopefully save you some time.
 
 ### Auto-Deployment Behaviors
 
