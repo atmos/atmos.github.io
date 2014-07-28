@@ -4,28 +4,49 @@ title: GitHub Auto-Deployment ~ Workflows for free
 repository_url: http://github.com/atmos/hubot-auto-deploy
 ---
 
-<h1>GitHub Auto-Deployment</h1>
+# GitHub Auto-Deployment
 <hr/>
 
-The goal of the auto-deployment service was to use the GitHub deployment API to facilitate workflows. People tend to either want their default branch to be auto-deployed or they want the default branch auto-deployed when tests pass. This decouples the workflows from the act of delivering the code. Right now the only provider that we have that supporst Deployments is the heroku beta addon.
+On GitHub everything revolves around repositories. In a lot of cases these repositories are hosts to applications. If you subscribe to the idea that the default branch of your application should always be deployable then auto-deployment will hopefully save you some time.
 
-<img src="https://cloud.githubusercontent.com/assets/704696/3698478/df9d14ee-13c2-11e4-9f76-7b5a0da624da.jpg" alt="service list" />
+### Auto-Deployment Behaviors
 
-<h2>Deploy on Push</h2>
+* Push changes to the application when the default branch is pushed to.
+* Push changes to the application when the default branch passes ci tests.
+* Continuously push branch deploys when new commits are added and tests pass.<b>Unimplemented</b>
 
-Upon receiving a push to the default branch, GitHub emits a deployment event for that sha.
+The goal of the auto-deployment service is to use the [GitHub Deployment API](https://developer.github.com/v3/repos/deployments/) to facilitate workflows regardless of how you're getting your code out to update your applications. This decouples the workflows from the act of delivering the code.
 
-<img src="https://cloud.githubusercontent.com/assets/704696/3698492/3942dc04-13c3-11e4-9737-f2b69b5f49bb.jpg" alt="auto deployment ui" />
+### Supported Deployment Systems
 
-<h2>Deploy on Commit Status</h2>
+Right now there's only two easy ways to deploy. You can use [heaven](https://github.com/atmos/heaven) with webhooks, or you can use the HerokuBeta service.
 
-Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the build was successful.
+* HerokuBeta GitHub Service
+* Webhooks
 
-<h2>Chat Configuration</h2>
+### Chat Configuration
 
 You can configure things on a per-repo basis via chat with the [hubot-auto-deploy](https://github.com/atmos/hubot-auto-deploy) script. This saves you from having to constantly look up a GitHub API token. Hubot will configure the auto-deploy integration for you from chat.
 
-<h2>Deployment</h2>
+## Deploy on Push
+
+<img src="https://cloud.githubusercontent.com/assets/704696/3698478/df9d14ee-13c2-11e4-9f76-7b5a0da624da.jpg" alt="service list" />
+
+Upon receiving a push to the default branch, GitHub emits a deployment event for that sha. This is great for workflows like "push to heroku" to see your changes live in 30-60 seconds.
+
+
+## Deploy on Commit Status
+
+<img src="https://cloud.githubusercontent.com/assets/704696/3698492/3942dc04-13c3-11e4-9737-f2b69b5f49bb.jpg" alt="auto deployment ui" />
+
+Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the build was successful.
+
+## Deployment
 
 This is all managed on your GitHub instance through the Settings section for your repo. You simply provide a GitHub personal access token with the `repo:deployment` scope.
 
+## TODO
+
+* More real-world testing.
+* Support for status_contexts and multi-commit status aware.
+* Support for continuous-deployment on branch deploys.
