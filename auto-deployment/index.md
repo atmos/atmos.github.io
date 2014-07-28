@@ -25,6 +25,8 @@ Example:
 * GitHub creates a deployment for your push
 * The HerokuBeta service picks up the deployment and pushes your master branch out.
 
+![Push to Deploy](https://cloud.githubusercontent.com/assets/38/3716383/ce41d122-160a-11e4-927c-b13b8bd44350.gif)
+
 ### Deploy on Commit Status
 
 Upon receiving a [commit status](https://developer.github.com/v3/repos/statuses/) to the default branch, GitHub emits a deployment event if the commit status is successful.
@@ -36,6 +38,8 @@ Example:
 * Your CI system calls back to GitHub stating that the commit passed tests.
 * GitHub creates a deployment for your successful commit status.
 * The HerokuBeta service picks up the deployment and pushes your master branch out.
+
+![CI Based Deploy](https://cloud.githubusercontent.com/assets/38/3716387/0436fd3e-160b-11e4-9aba-4a3b4e0934c8.gif)
 
 ## Setup
 
