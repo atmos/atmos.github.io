@@ -49,11 +49,7 @@ GitHub will handle creating Deployments via the API, but you will still need to 
 
 ### Supported Deployment Systems
 
-Right now there's only two easy ways to deploy. You can use [heaven](https://github.com/atmos/heaven) with webhooks, or you can use the HerokuBeta service.
-
-* HerokuBeta GitHub Service
-* Webhooks
-* AWS OpsWorks
+Right now there's only a few easy ways to deploy. You can use [heaven](https://github.com/atmos/heaven) with webhooks, the HerokuBeta GitHub service, or the AWS OpsWorks GitHub service.
 
 ### Configuration
 
