@@ -53,6 +53,7 @@ Right now there's only two easy ways to deploy. You can use [heaven](https://git
 
 * HerokuBeta GitHub Service
 * Webhooks
+* AWS OpsWorks
 
 ### Configuration
 
