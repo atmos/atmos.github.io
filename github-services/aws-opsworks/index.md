@@ -29,7 +29,6 @@ Try to identify the least number of privileges required to trigger these deploym
 
 If you're using [hubot-deploy][10] then you can specify different stacks and applications and group them into an environment. An example `apps.json` script for hubot looks like this.
 
-
 ### apps.json entry
 
 ```json
@@ -72,7 +71,15 @@ The associated GitHub Deployment API payload ends up looking like this:
 }
 ```
 
-You can then issue commands like `hubot deploy camo to staging` or `hubot deploy camo/my-topic-branch to production`.
+You can then issue commands like:
+
+`hubot deploy camo to staging`
+
+or
+
+`hubot deploy camo/my-topic-branch to production`.
+
+The deployment will still be triggered with the credentials stored on GitHub.
 
 [1]: https://github.com/github/github-services
 [2]: https://developer.github.com/v3/repos/deployments/
