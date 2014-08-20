@@ -55,7 +55,7 @@ Right now there's only a few easy ways to deploy. You can use [heaven](https://g
 
 | Attributes       | Description                                     |
 |------------------|-------------------------------------------------|
-| github_token     | A GitHub [personal oauth token]() with `repo:deployment` scope |
+| github_token     | A GitHub [personal oauth token][1] with `repo_deployment` scope |
 | environments     | A comma delimited list of environments to deploy to automatically. |
 | push_on_status   | When set to `1` deployments are only created on successful commit statuses. |
 | status_contexts  | A comma delimimted list of commit status context names to verify against.<b>Unimplemented</b>|
@@ -83,3 +83,5 @@ Example:
 * Your CI system calls back to GitHub stating that the commit passed tests.
 * GitHub creates a deployment for your successful commit status on the deployed branch.
 * The HerokuBeta service picks up the deployment and pushes your 'mybranch' branch out.
+
+[1]: https://help.github.com/articles/creating-an-access-token-for-command-line-use
