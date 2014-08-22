@@ -7,7 +7,7 @@ repository_url: https://github.com/github/github-services/blob/master/lib/servic
 # Herkou Beta
 <hr/>
 
-The Heroku Beta integration is a [github-service][1] that responds to [deployment events][2] on GitHub to ship your code to a [heroku] application.
+The Heroku Beta integration is a [github-service][1] that responds to [deployment events][2] on GitHub to ship your code to a [heroku][7] application.
 
 ## Setup
 
@@ -36,3 +36,4 @@ You can configure the Heroku Beta from the 'Settings' link on your repository. T
 [4]: https://devcenter.heroku.com/articles/oauth#direct-authorization
 [5]: https://devcenter.heroku.com/articles/platform-api-quickstart#authentication
 [6]: https://www.heroku.com/
+[7]: https://www.heroku.com/
