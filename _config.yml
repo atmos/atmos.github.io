@@ -3,7 +3,7 @@ lsi:         false
 port:        4000
 highligher:  true
 markdown:    rdiscount
-permalink:   /:year/:month/:day/:title
+permalink:   date
 email: "atmos@atmos.org"
 url: "https://atmos.org"
 exclude: [vendor]
