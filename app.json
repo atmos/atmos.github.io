@@ -1,0 +1,21 @@
+{
+  "name": "atmos' blog",
+  "description": "This is the blog of Corey Donohoe",
+  "website": "https://atmos.org",
+  "repository": "https://github.com/atmos/atmos.github.io",
+  "env": {
+    "JEKYLL_ENV": {
+      "description": "Jekyll Environment. It affects asset compilation. Details see https://github.com/jekyll/jekyll-assets#configuration.",
+      "value": "production"
+    }
+  },
+  "buildpacks": [
+    {
+
+      "url": "https://github.com/hone/heroku-buildpack-static.git"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}

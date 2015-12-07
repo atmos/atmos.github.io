@@ -1,4 +1,4 @@
-Copyright (c) 2014 Corey Donohoe
+Copyright (c) 2000-2016 Corey Donohoe
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
