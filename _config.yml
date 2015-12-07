@@ -4,5 +4,8 @@ port:        4000
 highligher:  true
 markdown:    rdiscount
 permalink:   date
+email: "atmos@atmos.org"
+url: "https://atmos.org"
+
 rdiscount:
   extensions: [smart]

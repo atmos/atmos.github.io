@@ -1,4 +1,5 @@
 _site
 _import
 .DS_Store
-Gemfile.lock
+.asset-cache
+.ruby-version
