@@ -19,8 +19,6 @@ We want to allow people to keep embedding images in comments/issues/READMEs with
 
 [There's more info on the GitHub blog](https://github.com/blog/743).
 
-Camo currently runs on node version 0.10.29 at GitHub on Heroku's cedar-14 stack.
-
 <h2>Features</h2>
 <ul>
   <li>Proxy images under 5 MB</li>
