@@ -6,12 +6,12 @@ issue_url: https://github.com/atmos/camo/issues/new
 repository_url: http://github.com/atmos/camo
 ---
 
-<h1>Camo - Image Proxy</h1>
+<h1>Camo - Image Proxy - 2010</h1>
 <hr/>
 
 <h2>History</h2>
 
-Camo is an http image proxy that is all about making it easy for developers to do right by your users who link to images. When it was written in 2010 as a response to [firesheep](https://codebutler.github.io/firesheep/) SSL everywhere wasn't a thing. We built an HTML [post-processing](https://github.com/jch/html-pipeline) engine around rewriting and proxying everything so we didn't leak information about our users.
+Camo is an http image proxy that is all about making it easy for developers to do right by your users who link to images. We built an HTML [post-processing](https://github.com/jch/html-pipeline) engine around rewriting and proxying everything so we didn't leak information about our users.
 
 <h2>What It Gives You</h2>
 
