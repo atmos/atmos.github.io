@@ -2,4 +2,5 @@ _site
 _import
 .DS_Store
 .asset-cache
+.bundle
 .ruby-version
