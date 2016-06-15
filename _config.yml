@@ -2,11 +2,7 @@ destination: ./_site
 lsi:         false
 port:        4000
 highligher:  true
-markdown:    rdiscount
 permalink:   date
 email: "atmos@atmos.org"
 url: "https://atmos.org"
 exclude: [vendor]
-
-rdiscount:
-  extensions: [smart]
