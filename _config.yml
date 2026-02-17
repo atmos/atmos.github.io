@@ -1,8 +1,0 @@
-destination: ./_site
-lsi:         false
-port:        4000
-highligher:  true
-permalink:   date
-email: "atmos@atmos.org"
-url: "https://atmos.org"
-exclude: [vendor]
